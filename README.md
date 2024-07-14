@@ -16,7 +16,7 @@ This repository offers supplementary information to assist in the research prese
 
 ## Project Selection
 
-The projects on which the approach is implemented are chosen based on two primary criteria:
+The projects on which the methodology is implemented are chosen based on two primary criteria:
 
 * **Decomposition strategy:** The microservices project follow the DDD principle [[3]](https://github.com/FrHassan/MicroservicesProjects#References) for their microservices boundaries identification.
 
