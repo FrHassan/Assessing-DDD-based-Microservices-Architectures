@@ -5,8 +5,6 @@ This repository offers supplementary information for the research presented in t
 
 ## Table of Content-
 
-* [**Introduction**](https://github.com/FrHassan/MicroservicesProjects#Introduction)  
-* [**Problematic**](https://github.com/FrHassan/MicroservicesProjects#Problematic)  
 * [**Project Selection and Methodology**](https://github.com/FrHassan/MicroservicesProjects#Project-Selection-and-Methodology)
 * [**Project Analysis**](https://github.com/FrHassan/MicroservicesProjects#Project-Analysis)  
    - [**Platform and Tools**](https://github.com/FrHassan/MicroservicesProjects#Platform-and-Tools)  
@@ -15,33 +13,6 @@ This repository offers supplementary information for the research presented in t
 * [**Your contribution**](https://github.com/FrHassan/MicroservicesProjects#Your-contribution)  
 * [**References**](https://github.com/FrHassan/MicroservicesProjects#References)
 
-
-
-## Introduction
-
-In today's modern age, software plays a crucial role in simplifying our lives. The advent of digitalization has significantly transformed various aspects of organizational business processes, propelling them to a new level of advancement. Embracing digitalization goes beyond a single concept; it entails a mindset that encompasses the integration of diverse approaches, technologies, and tools to seamlessly transition into the digital era.
-
-Software architecture plays a crucial role in performing effective digitalization and software development. There exist various types of software architecture that can be chosen based on systems-specific criteria and non-functional requirements. Among these, microservices have emerged as a prominent architectural style that is rapidly gaining popularity. Microservices offer a solution to the limitations associated with traditional monolithic systems by encapsulating different aspects of the application's business logic within independent and collaborative entities known as microservices.
-
-<p align="center">
- <img src="Assets/Images/Microservices.png" width="27%">
-</p>
- 
-The inherent scalability of microservices, resulting from their distributed nature and functional decomposition (Scale cube [[1]](https://github.com/FrHassan/MicroservicesProjects#References)), not only offers advantages in managing smaller components but also presents various challenges. These challenges have led researchers and engineers to invest significant time and effort in driving the evolution of this architectural style.
-
-<p align="center">
- <img src="Assets/Images/Scale_Cube.PNG" width="40%">
-</p>
- 
-## Problematic
-
-Microservices has gained significant attention in recent times and have become a popular area of research. Multiple studies have delved into this topic, offering various solutions to tackle the challenges associated with this architectural approach. Nevertheless, only a few papers, as mentioned in [[2]](https://github.com/FrHassan/MicroservicesProjects#References), have had a notable influence on the practical implementation of microservices. This limited impact can be attributed to the scarcity of industry-level microservices projects being readily accessible for research purposes. 
-
-Scientific research typically relies on two primary research approaches: the Top-Down approach and the Bottom-Up approach. The former begins with abstract concepts and gradually moves towards specific instances, while the latter starts with a set of samples and aims to uncover general rules based on their shared characteristics. In the realm of microservices, this process of concretization is most commonly observed through the creation of projects and applications. Every experiment conducted within this context must be rigorously validated through a thorough case study analysis.
- 
-The motivation behind initiating this venture is the necessity for readily accessible microservices projects within the community. In this endeavor, a variety of microservices projects have been compiled and made available for practitioners. Interested individuals can find a diverse range of projects encompassing various aspects such as size, implemented technologies, decomposition strategy, microservices patterns, and more.
-
-Our work extends beyond the scope of typical microservices projects as described in the existing literature. Instead, we offer a comprehensive analysis for each project, utilizing principles from graph theory. This ensures that interested parties gain a solid understanding of the capabilities and suitable applications for each microservices project.
 
 ## Project Selection and Methodology
 
