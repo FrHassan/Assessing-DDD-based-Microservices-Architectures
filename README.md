@@ -1,7 +1,7 @@
 # Using Graph Theory for Assessing Domain-Driven Design-based Microservices Architectures.
 
 
-This repository offers supplementary information for the research presented in the paper titled "_Using Graph Theory for Assessing Domain-Driven Design-based Microservices Architectures_". It contains technical specifications and findings related to implementing the proposed approach on four microservices projects based on DDD principles.
+This repository offers supplementary information to assist in the research presented in the paper titled "_Using Graph Theory for Assessing Domain-Driven Design-based Microservices Architectures_". It contains technical specifications and findings related to implementing the proposed approach on four microservices projects based on DDD principles.
 
 ## Table of Content-
 
