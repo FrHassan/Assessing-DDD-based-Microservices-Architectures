@@ -1,7 +1,7 @@
-# A Set of Microservices Projects Investigated and Examined Using Graph Theory Principles.
+# Using Graph Theory for Assessing Domain-Driven Design-based Microservices Architectures.
 
 
-This repository serves as a portal through which individuals in the field can access a range of projects related to microservices, all based on open literature data. It provides practitioners with a valuable opportunity to interact and use various microservices projects and gain insights from the different types of analysis and metrics attached to each project. Moreover, practitioners can obtain a comprehensive understanding of each project, enabling them to select the most suitable one for their specific case studies. This resource is dedicated to education, research, engineering, and other relevant purposes.
+This repository offers supplementary information for the research presented in the paper titled "_Using Graph Theory for Assessing Domain-Driven Design-based Microservices Architectures_". It contains technical specifications and findings related to implementing the proposed approach on four microservices projects based on DDD principles.
 
 ## Table of Content-
 
