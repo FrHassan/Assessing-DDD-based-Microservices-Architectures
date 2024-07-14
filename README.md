@@ -16,17 +16,11 @@ This repository offers supplementary information for the research presented in t
 
 ## Project Selection and Methodology
 
-The selection process for projects was not constrained to any particular source. Projects were primarily chosen based on a wide range of sources including public GitHub repositories, scientific papers, books, blogs, and official tutorials. To ensure a diverse range of perspectives, the projects were intentionally varied in terms of their internal structure and implementation technologies. When selecting a specific project, we focused on five main criteria:
- 
-* **Size:** We are interested mainly in small to medium microservices projects (Including Front-End services). 
+The projects on which the approach is implemented are chosen based on two primary criteria:
 
-* **Decomposition strategy:** We distinguish between types of projects, those using DDD as their decomposition strategy [[3]](https://github.com/FrHassan/MicroservicesProjects#References), and the projects that use other decomposition strategies.
+* **Decomposition strategy:** The microservices project follow the DDD principle [[3]](https://github.com/FrHassan/MicroservicesProjects#References) for their microservices boundaries identification.
 
-* **Style of communication:** Whether the application uses synchronous communication, asynchronous communication, or a combination of the two styles.
-
-* **Implemented Technology:** We are interested in the used technology stack as it is important for practitioners who want to experiment with microservices technologies to find a high level of variety.
-
-* **Documentation:** The selected projects are well documented directly from their original sources.
+* **Documentation:** The chosen projects have thorough documentation and provide information on their design and implementation."
 
 ## Project Analysis
 ### Platform and Tools
