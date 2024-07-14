@@ -5,16 +5,16 @@ This repository offers supplementary information for the research presented in t
 
 ## Table of Content-
 
-* [**Project Selection and Methodology**](https://github.com/FrHassan/MicroservicesProjects#Project-Selection-and-Methodology)
+* [**Project Selection**](https://github.com/FrHassan/MicroservicesProjects#Project-Selection)
 * [**Project Analysis**](https://github.com/FrHassan/MicroservicesProjects#Project-Analysis)  
    - [**Platform and Tools**](https://github.com/FrHassan/MicroservicesProjects#Platform-and-Tools)  
-   - [**Analysis Process**](https://github.com/FrHassan/MicroservicesProjects#Analysis-Process)  
+   - [**Application of the Methodology**](https://github.com/FrHassan/MicroservicesProjects#Application-of-the-Methodology)  
 * [**DataSet: Microservices Projects**](https://github.com/FrHassan/MicroservicesProjects#DataSet:Microservices-Projects)  
 * [**Your contribution**](https://github.com/FrHassan/MicroservicesProjects#Your-contribution)  
 * [**References**](https://github.com/FrHassan/MicroservicesProjects#References)
 
 
-## Project Selection and Methodology
+## Project Selection
 
 The projects on which the approach is implemented are chosen based on two primary criteria:
 
@@ -25,19 +25,17 @@ The projects on which the approach is implemented are chosen based on two primar
 ## Project Analysis
 ### Platform and Tools
 
-This repository offers a comprehensive collection of graph theory metrics and Key Performance Indicators (KPIs) specific to each microservices project. To obtain these metrics, we utilize Neo4j [[4]](https://neo4j.com/) as the primary platform for investigating and evaluating the corresponding project's graph structure.
+The main utilized tool to apply the methodology is Neo4j [[4]](https://neo4j.com/).
 
-Neo4j offers three main tools to perform graph analytics: 
+Neo4j offers three main tools to perform graph manipulate graphs: 
 
 * **Neo4j Browser [[5]](https://neo4j.com/developer/neo4j-browser/):** A tool to interact and manipulate graphs. 
-* **Neo4j Bloom [[6]](https://neo4j.com/product/bloom/):** A tool to interact visually the graph.
+* **Neo4j Bloom [[6]](https://neo4j.com/product/bloom/):** A tool to interact visually with the graph.
 * **Neo4j NEuler [[7]](https://neo4j.com/developer/graph-data-science/neuler-no-code-graph-algorithms/):** A playground to execute graph algorithms.
 
-### Analysis Process
+### Application of the Methodology
 
-**Important note:** During this analysis, the focus is not on the connection between the microservice and its database. Instead, the emphasis is on examining the connectivity between the microservices themselves. It is common for a microservice to have at least one connection with its database, thus, this is an unavoidable type of communication. To ensure accurate metrics regarding microservices connectivity, any databases present are removed from the graph before conducting the analysis. 
-
-To conduct a graph analysis based on the methodology outlined in this repository, we kindly request that you adhere to the provided instructions below.
+To apply the methodology, we kindly request that you adhere to the provided instructions below.
 
 **1.** Install _Neo4j Desktop_ following the instructions mentioned in [[8]](https://neo4j.com/docs/desktop-manual/current/installation/download-installation/).  
 **2.** Use _Neo4j Desktop_ to create a new graph database.  
