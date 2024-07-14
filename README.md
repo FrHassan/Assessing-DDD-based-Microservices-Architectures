@@ -18,14 +18,14 @@ This repository offers supplementary information to assist in the research prese
 
 The projects on which the methodology is implemented are chosen based on two primary criteria:
 
-* **Decomposition strategy:** The microservices projects follow the DDD principle [[3]](https://github.com/FrHassan/MicroservicesProjects#References) for their microservices boundaries identification.
+* **Decomposition strategy:** The microservices projects follow the DDD principle [[1]](https://github.com/FrHassan/MicroservicesProjects#References) for their microservices boundaries identification.
 
-* **Documentation:** The chosen projects have thorough documentation and provide information on their design and implementation."
+* **Documentation:** The microservices projects have thorough documentation and provide information on their design and implementation."
 
 ## Project Analysis
 ### Platform and Tools
 
-The main utilized tool to apply the methodology is Neo4j [[4]](https://neo4j.com/).
+The main utilized tool to apply the methodology is Neo4j [[2]](https://neo4j.com/).
 
 Neo4j offers three main tools to perform graph manipulate graphs: 
 
