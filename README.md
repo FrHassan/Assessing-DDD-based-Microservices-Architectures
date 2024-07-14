@@ -25,7 +25,7 @@ The projects on which the methodology is implemented are chosen based on two pri
 ## Project Analysis
 ### Platform and Tools
 
-The main utilized tool to apply the methodology is Neo4j [[2]](https://neo4j.com/).
+The main utilized tool to apply the methodology is Neo4j [[2]](https://neo4j.com/), which is an open source graph database management system,
 
 Neo4j offers three main tools to perform graph manipulate graphs: 
 
