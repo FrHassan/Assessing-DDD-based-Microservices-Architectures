@@ -18,7 +18,7 @@ This repository offers supplementary information to assist in the research prese
 
 The projects on which the methodology is implemented are chosen based on two primary criteria:
 
-* **Decomposition strategy:** The microservices project follow the DDD principle [[3]](https://github.com/FrHassan/MicroservicesProjects#References) for their microservices boundaries identification.
+* **Decomposition strategy:** The microservices projects follow the DDD principle [[3]](https://github.com/FrHassan/MicroservicesProjects#References) for their microservices boundaries identification.
 
 * **Documentation:** The chosen projects have thorough documentation and provide information on their design and implementation."
 
