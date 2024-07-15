@@ -3,7 +3,7 @@
 
 This repository offers supplementary information to assist in the research presented in the paper titled "_Using Graph Theory for Assessing Domain-Driven Design-based Microservices Architectures_". It contains technical specifications and findings related to implementing the proposed approach on four microservices projects based on DDD principles.
 
-## Table of Content-
+## Table of Content
 
 * [**Project Selection**](https://github.com/FrHassan/MicroservicesProjects#Project-Selection)
 * [**Project Analysis**](https://github.com/FrHassan/MicroservicesProjects#Project-Analysis)  
@@ -13,6 +13,22 @@ This repository offers supplementary information to assist in the research prese
 * [**Your contribution**](https://github.com/FrHassan/MicroservicesProjects#Your-contribution)  
 * [**References**](https://github.com/FrHassan/MicroservicesProjects#References)
 
+## Methodology
+
+The proposed approach for evaluating Domain-Driven Design-based microservices architectures against tight Design-Time coupling, as outlined in the paper, is as follows:
+
+<p align="center">
+ <img src="Assets/Images/Methodology.png" width="70%">
+</p>
+
+## Microservices-Projects
+
+The table below showcases the four microservices projects to which the methodology was applied. The hyperlink in the "_Results_" column offers detailed outcomes related to the methodology's application to each microservice project.
+
+| Application name | Reference <sup>(Link)</sup> | Size | Languages | Known patterns | Known anti-patterns and notes  | Results <sup>(Link)</sup> | Comment |
+| :---             |            :---:            | :---:|   :---:   |     :---:      |        :---:        |               :---:              | :---    |
+| Food to Go (FTGO) | [**Ref:** FTGO](https://github.com/microservices-patterns/ftgo-application) | 14 | Java | <sup>Multiple patterns</sup> | <sup>Slight indicators on chattiness [[13]](https://github.com/FrHassan/MicroservicesProjects#References)</sup> | [**FTGO**](https://github.com/FrHassan/MicroservicesProjects/tree/main/Microservices-Projects/Food%20to%20Go%20(FTGO)) | <sup>A reference example on microservices patterns implementation</sup> |
+| Pitstop - Garage Management System | [**Ref:** Pitstop](https://github.com/EdwinVW/pitstop) | 8 | .NET and ASP.NET Core | <sup>CQRS, Event Sourcing, DDD</sup> | <sup>Slight indicators on thightness between Workshop Management and Costumer services</sup> | [**Pitstop**](https://github.com/FrHassan/MicroservicesProjects/tree/main/Microservices-Projects/Pitstop%20-%20Garage%20Management%20System) | <sup>Well documented and easy to understand</sup> |
 
 ## Project Selection
 
@@ -120,17 +136,7 @@ To apply the methodology, we kindly request that you adhere to the provided inst
 
 **Note**: _Neo4j Bloom_ will give you the possibility to explore and visualize your graph interactively. You can use it to provide a visual representation of your graph.
 
-## DataSet:Microservices-Projects
 
-The following table presents a comprehensive list of the current microservices projects. It also furnishes all the relevant details required for selecting a specific project.
-
-
-Application name | Reference | Size | Languages | Used patterns | Known anti-patterns | Graph analysis (Link) | Comment (General info about decomposition technique or the style of communication used).
-
-| Application name | Reference <sup>(Link)</sup> | Size | Languages | Known patterns | Known anti-patterns and notes  | Graph analysis <sup>(Link)</sup> | Comment |
-| :---             |            :---:            | :---:|   :---:   |     :---:      |        :---:        |               :---:              | :---    |
-| Food to Go (FTGO) | [**Ref:** FTGO](https://github.com/microservices-patterns/ftgo-application) | 14 | Java | <sup>Multiple patterns</sup> | <sup>Slight indicators on chattiness [[13]](https://github.com/FrHassan/MicroservicesProjects#References)</sup> | [**FTGO**](https://github.com/FrHassan/MicroservicesProjects/tree/main/Microservices-Projects/Food%20to%20Go%20(FTGO)) | <sup>A reference example on microservices patterns implementation</sup> |
-| Pitstop - Garage Management System | [**Ref:** Pitstop](https://github.com/EdwinVW/pitstop) | 8 | .NET and ASP.NET Core | <sup>CQRS, Event Sourcing, DDD</sup> | <sup>Slight indicators on thightness between Workshop Management and Costumer services</sup> | [**Pitstop**](https://github.com/FrHassan/MicroservicesProjects/tree/main/Microservices-Projects/Pitstop%20-%20Garage%20Management%20System) | <sup>Well documented and easy to understand</sup> |
 
 ## Your contribution
 
