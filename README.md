@@ -30,14 +30,6 @@ The table below showcases the four microservices projects to which the methodolo
 | Food to Go (FTGO) | [**Ref:** FTGO](https://github.com/microservices-patterns/ftgo-application) | 14 | Java | <sup>Multiple patterns</sup> | <sup>Slight indicators on chattiness [[13]](https://github.com/FrHassan/MicroservicesProjects#References)</sup> | [**FTGO**](https://github.com/FrHassan/MicroservicesProjects/tree/main/Microservices-Projects/Food%20to%20Go%20(FTGO)) | <sup>A reference example on microservices patterns implementation</sup> |
 | Pitstop - Garage Management System | [**Ref:** Pitstop](https://github.com/EdwinVW/pitstop) | 8 | .NET and ASP.NET Core | <sup>CQRS, Event Sourcing, DDD</sup> | <sup>Slight indicators on thightness between Workshop Management and Costumer services</sup> | [**Pitstop**](https://github.com/FrHassan/MicroservicesProjects/tree/main/Microservices-Projects/Pitstop%20-%20Garage%20Management%20System) | <sup>Well documented and easy to understand</sup> |
 
-## Project Selection
-
-The projects on which the methodology is implemented are chosen based on two primary criteria:
-
-* **Decomposition strategy:** The microservices projects follow the DDD principle [[1]](https://github.com/FrHassan/MicroservicesProjects#References) for their microservices boundaries identification.
-
-* **Documentation:** The microservices projects have thorough documentation and provide information on their design and implementation."
-
 ## Project Analysis
 ### Platform and Tools
 
