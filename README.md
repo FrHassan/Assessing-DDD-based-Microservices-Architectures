@@ -26,7 +26,7 @@ The table below showcases the four microservices projects to which the methodolo
 
 | Application name | Reference <sup>(Link)</sup> | Size | Languages | Known patterns | Known anti-patterns and notes  | Results <sup>(Link)</sup> | Comment |
 | :---             |            :---:            | :---:|   :---:   |     :---:      |        :---:        |               :---:              | :---    |
-| Food to Go (FTGO) | [**Ref:** FTGO](https://github.com/microservices-patterns/ftgo-application) | 14 | Java | <sup>Multiple patterns</sup> | <sup>Slight indicators on chattiness [[13]](https://github.com/FrHassan/MicroservicesProjects#References)</sup> | [**FTGO**](https://github.com/FrHassan/MicroservicesProjects/tree/main/Microservices-Projects/Food%20to%20Go%20(FTGO)) | <sup>A reference example on microservices patterns implementation</sup> |
+| Food to Go (FTGO) | [**Ref:** FTGO](https://github.com/microservices-patterns/ftgo-application) | 14 | Java | <sup>Multiple patterns</sup> | <sup>Slight indicators on chattiness [[1]](https://github.com/FrHassan/MicroservicesProjects#References)</sup> | [**FTGO**](https://github.com/FrHassan/MicroservicesProjects/tree/main/Microservices-Projects/Food%20to%20Go%20(FTGO)) | <sup>A reference example on microservices patterns implementation</sup> |
 | Pitstop - Garage Management System | [**Ref:** Pitstop](https://github.com/EdwinVW/pitstop) | 8 | .NET and ASP.NET Core | <sup>CQRS, Event Sourcing, DDD</sup> | <sup>Slight indicators on thightness between Workshop Management and Costumer services</sup> | [**Pitstop**](https://github.com/FrHassan/MicroservicesProjects/tree/main/Microservices-Projects/Pitstop%20-%20Garage%20Management%20System) | <sup>Well documented and easy to understand</sup> |
 
 ## Project Analysis
@@ -42,7 +42,7 @@ Neo4j offers three main tools to perform graph manipulate graphs:
 
 ### Application of the Methodology
 
-To apply the methodology, we kindly request that you adhere to the provided instructions below.
+To apply the methodology, we kindly request that you adhere to the provided following instructions:
 
 **1.** Install _Neo4j Desktop_ following the instructions mentioned in [[6]](https://neo4j.com/docs/desktop-manual/current/installation/download-installation/).  
 **2.** Use _Neo4j Desktop_ to create a new graph database.  
