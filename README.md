@@ -110,7 +110,7 @@ To apply the methodology, we kindly request that you adhere to the provided foll
  <img src="Assets/Images/NEuler Algorithm Result.PNG" width="70%">
 </p>
 
-**9)** When accessing _Neo4j Browser_, employ the _Cypher_ match query [[14]](https://neo4j.com/docs/cypher-manual/4.4/clauses/match/) to retrieve the desired results. Following that, you have the option to export the results in a format of your choice, typically CSV.
+**9)** When accessing _Neo4j Browser_, employ the _Cypher_ match query [[12]](https://neo4j.com/docs/cypher-manual/4.4/clauses/match/) to retrieve the desired results. Following that, you have the option to export the results in a format of your choice, typically CSV.
 
 
 <p align="center">
@@ -118,7 +118,7 @@ To apply the methodology, we kindly request that you adhere to the provided foll
 </p>
 
 **10)** Using the (.csv) file, you have the option to utilize a suitable tool in order to produce visual representations of your architectural data. 
-   - In our case, we use _Microsoft Power BI Desktop_ [[12]](https://www.microsoft.com/fr-fr/download/details.aspx?id=58494) to generate our charts.
+   - In our case, we use _Microsoft Power BI Desktop_ [[13]](https://www.microsoft.com/fr-fr/download/details.aspx?id=58494) to generate our charts.
    - Example of a chart: [Food to Go (FTGO) - Degree analysis](https://github.com/FrHassan/MicroservicesProjects/blob/main/Microservices-Projects/Food%20to%20Go%20(FTGO)/Degree/FTGO%20Degree%20and%20Degree_Out%20(PNG).PNG)
    
 <p align="center">
@@ -130,33 +130,27 @@ To apply the methodology, we kindly request that you adhere to the provided foll
 
 ## References
 
-[1] JAMSHIDI, Pooyan, PAHL, Claus, MENDONÇA, Nabor C., et al. Microservices: The journey so far and challenges ahead. IEEE Software, 2018, vol. 35, no 3, p. 24-35. 
+[1] [https://neo4j.com/](https://neo4j.com/)  
 
-[2] RICHARDSON, Chris. Microservices patterns: with examples in Java. Simon and Schuster, 2018.  
+[2] [https://neo4j.com/developer/neo4j-browser/](https://neo4j.com/developer/neo4j-browser/)  
 
-[3] EVANS, Eric. Domain-driven design: tackling complexity in the heart of software. Addison-Wesley Professional, 2004.  
+[3] [https://neo4j.com/product/bloom/](https://neo4j.com/product/bloom/)  
 
-[4] [https://neo4j.com/](https://neo4j.com/)  
+[4] [https://neo4j.com/developer/graph-data-science/neuler-no-code-graph-algorithms/](https://neo4j.com/developer/graph-data-science/neuler-no-code-graph-algorithms/)  
 
-[5] [https://neo4j.com/developer/neo4j-browser/](https://neo4j.com/developer/neo4j-browser/)  
+[5] https://neo4j.com/docs/desktop-manual/current/installation/download-installation/  
 
-[6] [https://neo4j.com/product/bloom/](https://neo4j.com/product/bloom/)  
+[6] https://neo4j.com/labs/apoc/   
 
-[7] [https://neo4j.com/developer/graph-data-science/neuler-no-code-graph-algorithms/](https://neo4j.com/developer/graph-data-science/neuler-no-code-graph-algorithms/)  
-[8] https://neo4j.com/docs/desktop-manual/current/installation/download-installation/  
+[7] https://neo4j.com/docs/graph-data-science/current/  
 
-[9] https://neo4j.com/labs/apoc/   
+[8] https://neo4j.com/docs/cypher-manual/current/clauses/create/   
 
-[10] https://neo4j.com/docs/graph-data-science/current/  
+[9] https://neo4j.com/developer/cypher/  
 
-[11] https://neo4j.com/docs/cypher-manual/current/clauses/create/   
+[10] https://neo4j.com/docs/graph-data-science/current/algorithms/  
 
-[12] https://neo4j.com/developer/cypher/  
+[11] https://neo4j.com/docs/cypher-manual/4.4/clauses/match/  
 
-[13] https://neo4j.com/docs/graph-data-science/current/algorithms/  
+[12] https://www.microsoft.com/fr-fr/download/details.aspx?id=58494  
 
-[14] https://neo4j.com/docs/cypher-manual/4.4/clauses/match/  
-
-[15] https://www.microsoft.com/fr-fr/download/details.aspx?id=58494  
-
-[16] FARSI, Hassan, ALLAKI, Driss, EN-NOUAARY, Abdeslam, et al. Following Domain Driven Design principles for Microservices decomposition: is it enough?. In : 2021 IEEE/ACS 18th International Conference on Computer Systems and Applications (AICCSA). IEEE, 2021. p. 1-8.  
