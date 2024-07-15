@@ -5,11 +5,11 @@ This section presents the application of the methodology on the FTGO microservic
 ## Table of Contents
 
 * [**Overview**](https://github.com/FrHassan/Assessing-DDD-based-Microservices-Architectures/tree/main/Microservices-Projects/Food%20to%20Go%20(FTGO)#Overview)  
-* [**FTGO Microservices architecture into a graph**](https://github.com/FrHassan/Assessing-DDD-based-Microservices-Architectures/tree/main/Microservices-Projects/Food%20to%20Go%20(FTGO)#FTGO_Microservices_architecture_into_a_graph)  
+* [**FTGO Microservices architecture into a graph**](https://github.com/FrHassan/Assessing-DDD-based-Microservices-Architectures/tree/main/Microservices-Projects/Food%20to%20Go%20(FTGO)#FTGO-Microservices-architecture-into-a-graph)  
 
-* [**Graph algorithms execution on FTGO**]([[https://github.com/FrHassan/MicroservicesProjects](https://github.com/FrHassan/Assessing-DDD-based-Microservices-Architectures)](https://github.com/FrHassan/Assessing-DDD-based-Microservices-Architectures/tree/main/Microservices-Projects/Food%20to%20Go%20(FTGO))#Graph_algorithms_execution_on_FTGO)
+* [**Graph algorithms execution on FTGO**](https://github.com/FrHassan/Assessing-DDD-based-Microservices-Architectures/tree/main/Microservices-Projects/Food%20to%20Go%20(FTGO)#Graph-algorithms-execution-on-FTGO)
 
-* [**FTGO result analysis**]([[https://github.com/FrHassan/MicroservicesProjects](https://github.com/FrHassan/Assessing-DDD-based-Microservices-Architectures)](https://github.com/FrHassan/Assessing-DDD-based-Microservices-Architectures/tree/main/Microservices-Projects/Food%20to%20Go%20(FTGO))#FTGO_result_analysis)
+* [**FTGO result analysis**](https://github.com/FrHassan/Assessing-DDD-based-Microservices-Architectures/tree/main/Microservices-Projects/Food%20to%20Go%20(FTGO)#FTGO-result-analysis)
     
 * [**References**](https://github.com/FrHassan/MicroservicesProjects#References)
 
@@ -24,6 +24,11 @@ Food to Go (FTGO) [[1]](https://github.com/microservices-patterns/ftgo-applicati
 
 ## FTGO Microservices architecture into a graph
 
+During this phase of the methodology, the architecture associated graph for is generated and shown in the Figure below.
+
+<p align="center">
+ <img src="FTGO graph metrics/FTGO associated graph (PNG).png" width="70%">
+</p>
 
 ## Graph algorithms execution on FTGO
 ## FTGO result analysis
