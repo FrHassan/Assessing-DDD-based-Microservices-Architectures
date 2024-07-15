@@ -6,11 +6,11 @@ This repository offers supplementary information to assist in the research prese
 ## Table of Content
 
 * [**Methodology**](https://github.com/FrHassan/Assessing-DDD-based-Microservices-Architectures#Methodology)
-* [**Microservices Projects**](https://github.com/FrHassan/MicroservicesProjects#Microservices-Projects)  
-* [**Project Analysis**](https://github.com/FrHassan/MicroservicesProjects#Project-Analysis)  
-   - [**Platform and Tools**](https://github.com/FrHassan/MicroservicesProjects#Platform-and-Tools)  
-   - [**Application of the Methodology**](https://github.com/FrHassan/MicroservicesProjects#Application-of-the-Methodology)  
-* [**References**](https://github.com/FrHassan/MicroservicesProjects#References)
+* [**Microservices Projects**](https://github.com/FrHassan/Assessing-DDD-based-Microservices-Architectures#Microservices-Projects)  
+* [**Project Analysis**](https://github.com/FrHassan/Assessing-DDD-based-Microservices-Architectures#Project-Analysis)  
+   - [**Platform and Tools**](https://github.com/FrHassan/Assessing-DDD-based-Microservices-Architectures#Platform-and-Tools)  
+   - [**Application of the Methodology**](https://github.com/FrHassan/Assessing-DDD-based-Microservices-Architectures#Application-of-the-Methodology)  
+* [**References**](https://github.com/FrHassan/Assessing-DDD-based-Microservices-Architectures#References)
 
 ## Methodology
 
@@ -28,8 +28,8 @@ The table below showcases the four microservices projects to which the methodolo
 
 | Application name | Reference <sup>(Link)</sup> | Size | Languages | Known patterns | Graph analysis <sup>(Link)</sup> | Comment |
 | :---             |            :---:            | :---:|   :---:   |     :---:      |        :---:     | :---    |
-| Food to Go (FTGO) | [**Ref:** FTGO](https://github.com/microservices-patterns/ftgo-application) | 14 | Java | <sup>Multiple microservices patterns</sup> | [**FTGO**](https://github.com/FrHassan/MicroservicesProjects/tree/main/Microservices-Projects/Food%20to%20Go%20(FTGO)) | <sup>An application for restaurant management</sup> |
-| Pitstop - Garage Management System | [**Ref:** Pitstop](https://github.com/EdwinVW/pitstop) | 8 | .NET and ASP.NET Core | <sup>CQRS, Event Sourcing</sup> | [**Pitstop**](https://github.com/FrHassan/MicroservicesProjects/tree/main/Microservices-Projects/Pitstop%20-%20Garage%20Management%20System) | <sup>A sample application based on a Garage Management System</sup> |
+| Food to Go (FTGO) | [**Ref:** FTGO](https://github.com/microservices-patterns/ftgo-application) | 14 | Java | <sup>Multiple microservices patterns</sup> | [**FTGO**](https://github.com/FrHassan/Assessing-DDD-based-Microservices-Architectures/tree/main/Microservices-Projects/Food%20to%20Go%20(FTGO)) | <sup>An application for restaurant management</sup> |
+| Pitstop - Garage Management System | [**Ref:** Pitstop](https://github.com/EdwinVW/pitstop) | 8 | .NET and ASP.NET Core | <sup>CQRS, Event Sourcing</sup> | [**Pitstop**](https://github.com/FrHassan/Assessing-DDD-based-Microservices-Architectures/tree/main/Microservices-Projects/Pitstop%20-%20Garage%20Management%20System) | <sup>A sample application based on a Garage Management System</sup> |
 
 
 ## Project Analysis
@@ -122,10 +122,10 @@ To apply the methodology, we kindly request that you adhere to the provided foll
 
 **10)** Using the (.csv) file, you have the option to utilize a suitable tool in order to produce visual representations of your architectural data. 
    - In our case, we use _Microsoft Power BI Desktop_ [[13]](https://www.microsoft.com/fr-fr/download/details.aspx?id=58494) to generate our charts.
-   - Example of a chart: [Food to Go (FTGO) - Degree analysis](https://github.com/FrHassan/MicroservicesProjects/blob/main/Microservices-Projects/Food%20to%20Go%20(FTGO)/Degree/FTGO%20Degree%20and%20Degree_Out%20(PNG).PNG)
+   - Example of a chart: [Food to Go (FTGO) - Degree analysis](https://github.com/FrHassan/Assessing-DDD-based-Microservices-Architectures/blob/main/Microservices-Projects/Food%20to%20Go%20(FTGO)/Degree/FTGO%20Degree%20and%20Degree_Out%20(PNG).PNG)
    
 <p align="center">
- <img src="https://github.com/FrHassan/MicroservicesProjects/blob/main/Microservices-Projects/Food%20to%20Go%20(FTGO)/Degree/FTGO%20Degree%20and%20Degree_Out%20(PNG).PNG" width="70%">
+ <img src="https://github.com/FrHassan/Assessing-DDD-based-Microservices-Architectures/blob/main/Microservices-Projects/Food%20to%20Go%20(FTGO)/Degree/FTGO%20Degree%20and%20Degree_Out%20(PNG).PNG" width="70%">
 </p>
 
 **Note**: _Neo4j Bloom_ will give you the possibility to explore and visualize your graph interactively. You can use it to provide a visual representation of your graph.
