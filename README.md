@@ -24,7 +24,7 @@ The proposed methodology for evaluating Domain-Driven Design-based microservices
 
 The table below showcases the four microservices projects to which the methodology was applied. The hyperlink in the "_Results_" column offers detailed outcomes related to the methodology's application to each microservice project.
 
-Application name | Reference | Size | Languages | Used patterns | Results (Link) | Comment (General info about decomposition technique or the style of communication used).
+
 
 | Application name | Reference <sup>(Link)</sup> | Size | Languages | Known patterns | Known anti-patterns and notes  | Graph analysis <sup>(Link)</sup> | Comment |
 | :---             |            :---:            | :---:|   :---:   |     :---:      |        :---:        |               :---:              | :---    |
