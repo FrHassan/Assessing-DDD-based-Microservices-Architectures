@@ -24,10 +24,13 @@ The proposed methodology for evaluating Domain-Driven Design-based microservices
 
 The table below showcases the four microservices projects to which the methodology was applied. The hyperlink in the "_Results_" column offers detailed outcomes related to the methodology's application to each microservice project.
 
-| Application name | Reference <sup>(Link)</sup> | Size | Languages | Known patterns | Results <sup>(Link)</sup> | Comment |
+Application name | Reference | Size | Languages | Used patterns | Results (Link) | Comment (General info about decomposition technique or the style of communication used).
+
+| Application name | Reference <sup>(Link)</sup> | Size | Languages | Known patterns | Known anti-patterns and notes  | Graph analysis <sup>(Link)</sup> | Comment |
 | :---             |            :---:            | :---:|   :---:   |     :---:      |        :---:        |               :---:              | :---    |
 | Food to Go (FTGO) | [**Ref:** FTGO](https://github.com/microservices-patterns/ftgo-application) | 14 | Java | <sup>Multiple patterns</sup> | [**FTGO**](https://github.com/FrHassan/MicroservicesProjects/tree/main/Microservices-Projects/Food%20to%20Go%20(FTGO)) | <sup>A reference example on microservices patterns implementation</sup> |
 | Pitstop - Garage Management System | [**Ref:** Pitstop](https://github.com/EdwinVW/pitstop) | 8 | .NET and ASP.NET Core | <sup>CQRS, Event Sourcing, DDD</sup> | [**Pitstop**](https://github.com/FrHassan/MicroservicesProjects/tree/main/Microservices-Projects/Pitstop%20-%20Garage%20Management%20System) | <sup>Well documented and easy to understand</sup> |
+
 
 ## Project Analysis
 ### Platform and Tools
