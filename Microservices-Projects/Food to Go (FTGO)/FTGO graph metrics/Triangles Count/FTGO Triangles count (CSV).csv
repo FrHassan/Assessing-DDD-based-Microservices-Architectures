@@ -1,0 +1,15 @@
+﻿node,triangles
+"(:Microservice {name: ""Order"",degree_aff: 6.0,pagerank: 0.9372438793971135,trianglesCount: 14})",14
+"(:FrontEndMicroservice {name: ""Api Gateway"",degree_aff: 0.0,pagerank: 0.15000000000000002,trianglesCount: 13})",13
+"(:Microservice {name: ""Restaurant"",degree_aff: 4.0,pagerank: 0.8009934474249832,trianglesCount: 7})",7
+"(:Microservice {name: ""Kitchen"",degree_aff: 4.0,pagerank: 0.641931820315915,trianglesCount: 7})",7
+"(:Microservice {name: ""Order History"",degree_aff: 1.0,pagerank: 0.16593750000000002,trianglesCount: 6})",6
+"(:Microservice {name: ""Consumer"",degree_aff: 3.0,pagerank: 0.611185726565915,trianglesCount: 5})",5
+"(:Microservice {name: ""Account"",degree_aff: 3.0,pagerank: 0.7206053614874831,trianglesCount: 5})",5
+"(:Microservice {name: ""Delayed Order Service"",degree_aff: 1.0,pagerank: 0.16593750000000002,trianglesCount: 5})",5
+"(:FrontEndMicroservice {name: ""Restaurant UI"",degree_aff: 0.0,pagerank: 0.15000000000000002,trianglesCount: 3})",3
+"(:Microservice {name: ""Delivery"",degree_aff: 2.0,pagerank: 0.20119921875000002,trianglesCount: 1})",1
+"(:Microservice {name: ""Notification"",degree_aff: 1.0,pagerank: 0.49034698608527555,trianglesCount: 0})",0
+"(:IntegrationAdapter {name: ""Stripe Adapter"",degree_aff: 1.0,pagerank: 0.456182049561838,trianglesCount: 0})",0
+"(:IntegrationAdapter {name: ""Twilio Adapter"",degree_aff: 1.0,pagerank: 0.358349445497313,trianglesCount: 0})",0
+"(:IntegrationAdapter {name: ""Amazon_SES_Adapter"",degree_aff: 1.0,pagerank: 0.358349445497313,trianglesCount: 0})",0

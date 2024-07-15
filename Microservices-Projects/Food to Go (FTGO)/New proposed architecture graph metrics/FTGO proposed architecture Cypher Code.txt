@@ -1,0 +1,79 @@
+////////////////////////////////// Nodes Creation ////////////////////////////////// 
+
+CREATE
+  (nApi_Gateway:FrontEndMicroservice {name: 'Api Gateway'}),
+  (nRestaurant_UI:FrontEndMicroservice {name: 'Restaurant UI'}),
+  (nApi_Order:FrontEndMicroservice {name: 'Order Api'}),
+  (nOrderRestaurant_UI:FrontEndMicroservice {name: 'Order Restaurant UI'}),
+  (nConsumer:Microservice {name: 'Consumer'}),
+  (nOrder_History:Microservice {name: 'Order History'}),
+  (nRestaurant:Microservice {name: 'Restaurant'}),
+  (nKitchen:Microservice {name: 'Kitchen'}),
+  (nDelivery:Microservice {name: 'Delivery'}),
+  (nAccount:Microservice {name: 'Account'}),
+  (nNotification:Microservice {name: 'Notification'}),
+  (nDelayed_Order_Service:Microservice {name: 'Delayed Order Service'}),
+  (nCreateOrder:Microservice {name: 'Create Order'}),
+  (nUpdateOrder:Microservice {name: 'Update Order'}),
+  (nCancelOrder:Microservice {name: 'Cancel Order'}),
+  (nDelegateOrder:Microservice {name: 'Delegate Order'}),
+  (nStripe_Adapter:IntegrationAdapter {name: 'Stripe Adapter'}),
+  (nTwilio_Adapter:IntegrationAdapter {name: 'Twilio Adapter'}),
+  (nAmazon_SES_Adapter:IntegrationAdapter {name: 'Amazon_SES_Adapter'}),
+  (nOrderEvents_Handler:Broker {name: 'Order Events Handler'}),
+  (nEvent_Publisher:Broker {name: 'Events Publisher'}),
+  (nDelegateOrderEventUpdater:Broker {name: 'Delegate Order Event Updater'}),
+  (nCommandsHandler:Broker {name: 'Commands Handler'}),
+  
+  (nApi_Gateway)-[:HTTPrequest_response {weight: 1}]->(nRestaurant),
+  (nApi_Gateway)-[:HTTPrequest_response {weight: 1}]->(nDelivery),
+  (nApi_Gateway)-[:HTTPrequest_response {weight: 1}]->(nAccount),
+  (nApi_Gateway)-[:HTTPrequest_response {weight: 1}]->(nKitchen),
+  (nApi_Gateway)-[:HTTPrequest_response {weight: 1}]->(nConsumer),
+  (nApi_Gateway)-[:HTTPrequest_response {weight: 1}]->(nOrder_History),
+  (nApi_Gateway)-[:HTTPrequest_response {weight: 1}]->(nDelayed_Order_Service),
+  (nRestaurant_UI)-[:HTTPrequest_response {weight: 1}]->(nRestaurant),
+  (nRestaurant_UI)-[:HTTPrequest_response {weight: 1}]->(nKitchen),
+  (nApi_Order)-[:HTTPrequest_response {weight: 1}]->(nCreateOrder),
+  (nApi_Order)-[:HTTPrequest_response {weight: 1}]->(nUpdateOrder),
+  (nApi_Order)-[:HTTPrequest_response {weight: 1}]->(nCancelOrder),
+  (nOrderRestaurant_UI)-[:HTTPrequest_response {weight: 1}]->(nCreateOrder),
+  (nOrderRestaurant_UI)-[:HTTPrequest_response {weight: 1}]->(nUpdateOrder),
+  (nOrderRestaurant_UI)-[:HTTPrequest_response {weight: 1}]->(nCancelOrder),
+
+  (nOrder_History)-[:DOMAIN_EVENT {weight: 1}]->(nAccount),
+  (nOrder_History)-[:DOMAIN_EVENT {weight: 1}]->(nKitchen),
+  (nOrder_History)-[:DOMAIN_EVENT {weight: 1}]->(nDelivery),
+  (nOrder_History)-[:DOMAIN_EVENT {weight: 1}]->(nDelegateOrder),
+
+  (nCommandsHandler)-[:COMMAND_MESSAGE {weight: 1}]->(nKitchen),
+
+  (nCommandsHandler)-[:COMMAND_MESSAGE {weight: 1}]->(nConsumer),
+
+  (nCreateOrder)-[:COMMAND_MESSAGE {weight: 1}]->(nCommandsHandler),
+
+  (nUpdateOrder)-[:COMMAND_MESSAGE {weight: 1}]->(nCommandsHandler),
+
+
+  (nOrderEvents_Handler)-[:P_S {weight: 1}]->(nEvent_Publisher),
+  
+  (nDelegateOrderEventUpdater)-[:P_S {weight: 1}]->(nEvent_Publisher),
+  
+  (nRestaurant)-[:HTTPrequest_response {weight: 1}]->(nNotification),
+  (nRestaurant)-[:DOMAIN_EVENT {weight: 1}]->(nDelegateOrder),
+
+  (nKitchen)-[:DOMAIN_EVENT {weight: 1}]->(nRestaurant),
+
+  (nConsumer)-[:DOMAIN_EVENT {weight: 1}]->(nAccount),
+  
+  (nDelayed_Order_Service)-[:DOMAIN_EVENT {weight: 1}]->(nDelegateOrder),
+  (nDelayed_Order_Service)-[:HTTPrequest_response {weight: 1}]->(nConsumer),
+  (nDelayed_Order_Service)-[:DOMAIN_EVENT {weight: 1}]->(nRestaurant),
+
+  (nAccount)-[:DEPENDS {weight: 1}]->(nStripe_Adapter),
+  (nAccount)-[:COMMAND_MESSAGE {weight: 1}]->(nDelegateOrder),
+
+  (nNotification)-[:DEPENDS {weight: 1}]->(nTwilio_Adapter),
+  (nNotification)-[:DEPENDS {weight: 1}]->(nAmazon_SES_Adapter);
+
+
