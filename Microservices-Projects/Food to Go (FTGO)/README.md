@@ -5,11 +5,11 @@ This section presents the application of the methodology on the FTGO microservic
 ## Table of Contents
 
 * [**Overview**](https://github.com/FrHassan/Assessing-DDD-based-Microservices-Architectures/tree/main/Microservices-Projects/Food%20to%20Go%20(FTGO)#Overview)  
-* [**FTGO Microservices architecture into a graph**]([https://github.com/FrHassan/MicroservicesProjects](https://github.com/FrHassan/Assessing-DDD-based-Microservices-Architectures)#FTGO_Microservices_architecture_into_a_graph)  
+* [**FTGO Microservices architecture into a graph**](https://github.com/FrHassan/Assessing-DDD-based-Microservices-Architectures/tree/main/Microservices-Projects/Food%20to%20Go%20(FTGO)#FTGO_Microservices_architecture_into_a_graph)  
 
-* [**Graph algorithms execution on FTGO**]([https://github.com/FrHassan/MicroservicesProjects](https://github.com/FrHassan/Assessing-DDD-based-Microservices-Architectures)#Graph_algorithms_execution_on_FTGO)
+* [**Graph algorithms execution on FTGO**]([[https://github.com/FrHassan/MicroservicesProjects](https://github.com/FrHassan/Assessing-DDD-based-Microservices-Architectures)](https://github.com/FrHassan/Assessing-DDD-based-Microservices-Architectures/tree/main/Microservices-Projects/Food%20to%20Go%20(FTGO))#Graph_algorithms_execution_on_FTGO)
 
-* [**FTGO result analysis**]([https://github.com/FrHassan/MicroservicesProjects](https://github.com/FrHassan/Assessing-DDD-based-Microservices-Architectures)#FTGO_result_analysis)
+* [**FTGO result analysis**]([[https://github.com/FrHassan/MicroservicesProjects](https://github.com/FrHassan/Assessing-DDD-based-Microservices-Architectures)](https://github.com/FrHassan/Assessing-DDD-based-Microservices-Architectures/tree/main/Microservices-Projects/Food%20to%20Go%20(FTGO))#FTGO_result_analysis)
     
 * [**References**](https://github.com/FrHassan/MicroservicesProjects#References)
 
@@ -22,8 +22,11 @@ Food to Go (FTGO) [[1]](https://github.com/microservices-patterns/ftgo-applicati
  <img src="FTGO microservices architecture (PNG).PNG" width="70%">
 </p>
 
-## Discussion  
-                                                                Soon
+## FTGO Microservices architecture into a graph
+
+
+## Graph algorithms execution on FTGO
+## FTGO result analysis
 
 ## References
 
