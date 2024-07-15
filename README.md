@@ -5,17 +5,16 @@ This repository offers supplementary information to assist in the research prese
 
 ## Table of Content
 
-* [**Project Selection**](https://github.com/FrHassan/MicroservicesProjects#Project-Selection)
+* [**Methodology**](https://github.com/FrHassan/MicroservicesProjects#Methodology)
+* [**Microservices Projects**](https://github.com/FrHassan/MicroservicesProjects#Microservices-Projects)  
 * [**Project Analysis**](https://github.com/FrHassan/MicroservicesProjects#Project-Analysis)  
    - [**Platform and Tools**](https://github.com/FrHassan/MicroservicesProjects#Platform-and-Tools)  
    - [**Application of the Methodology**](https://github.com/FrHassan/MicroservicesProjects#Application-of-the-Methodology)  
-* [**DataSet: Microservices Projects**](https://github.com/FrHassan/MicroservicesProjects#DataSet:Microservices-Projects)  
-* [**Your contribution**](https://github.com/FrHassan/MicroservicesProjects#Your-contribution)  
 * [**References**](https://github.com/FrHassan/MicroservicesProjects#References)
 
 ## Methodology
 
-The proposed approach for evaluating Domain-Driven Design-based microservices architectures against tight Design-Time coupling, as outlined in the paper, is as follows:
+The proposed methodology for evaluating Domain-Driven Design-based microservices architectures against tight Design-Time coupling, as outlined in the paper, is as follows:
 
 <p align="center">
  <img src="Assets/Images/Methodology.png" width="70%">
@@ -128,22 +127,6 @@ To apply the methodology, we kindly request that you adhere to the provided inst
 
 **Note**: _Neo4j Bloom_ will give you the possibility to explore and visualize your graph interactively. You can use it to provide a visual representation of your graph.
 
-
-
-## Your contribution
-
-This repository functions as an open invitation extended to all practitioners, inviting them to actively contribute with their own microservices projects. We strongly urge you to join the community and share your valuable applications, playing a crucial role in the advancement of microservices architecture.
-
-To disseminate your project, kindly adhere to the guidelines presented in the [_Project Analysis - Analysis Process_](https://github.com/FrHassan/MicroservicesProjects#analysis-process) section for project analysis. Subsequently, we request that you furnish, to the best of your ability, the specified information type outlined in the provided table. 
-
-
-
-
-Another important piece of information is the name you want to be known with, in order to leave your mark as a participant in this work (^-^).
-
-All data must be sent to at least one of the following emails: 
-* HASSAN FARSI : <farsi.hassan@inpt.ac.ma> | <farsihassan.ing@gmail.com>
-* ALLAKI DRISS : <d.allaki@inpt.ac.ma>
 
 ## References
 
