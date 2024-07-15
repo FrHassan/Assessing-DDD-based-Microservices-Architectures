@@ -52,15 +52,15 @@ To apply the methodology, we kindly request that you adhere to the provided foll
 </p>
 
 **3.** Under the database "_Plugins_" section, install "_APOC_" and "_Graph Data Science Library_". 
-   - _Awesome Procedures On Cypher (APOC)_ [[7]](https://neo4j.com/labs/apoc/) adds a lot of useful_ Cypher_ functionalities that help manipulating the data. 
-   - _Graph Data Science Library_ [[8]](https://neo4j.com/docs/graph-data-science/current/) will make it easier for us to execute the available Neo4j graph algorithms.
+   - _Awesome Procedures On Cypher (APOC)_ [[7]](https://neo4j.com/labs/apoc/) provide useful_ Cypher_ functionalities that help manipulating the graph. 
+   - _Graph Data Science Library_ [[8]](https://neo4j.com/docs/graph-data-science/current/) facilitate the execution of the available Neo4j graph algorithms.
 
 <p align="center">
  <img src="Assets/Images/Neo4j Desktop Plugins.PNG" width="70%">
 </p>
 
 **4.** Click on the "_Start_" button to run the database.  
-   - Whenever the database is operational, Neo4j will indicate an active state with a green color.
+   - Whenever the database is operational, Neo4j indicates an active state with a green color.
 
 
 <p align="center">
@@ -77,7 +77,7 @@ To apply the methodology, we kindly request that you adhere to the provided foll
 
 **5.** Under the "_Open_" list, open _Neo4j Browser_.  
 **6.** Create the microservices architecture associated graph using the "_Cypher_"  [[9]](https://neo4j.com/docs/cypher-manual/current/clauses/create/) (You can take inspiration from the code escorted to each existing project in this repository).
-   - Now you can manipulate as you want the graph using _Cypher Query Language_ [[10]](https://neo4j.com/developer/cypher/).  
+   - Now, the created graph could be manipulated _Cypher Query Language_ [[10]](https://neo4j.com/developer/cypher/).  
 
 <p align="center">
  <img src="Assets/Images/Neo4j Desktop Create Graph.PNG" width="70%">
@@ -87,7 +87,7 @@ To apply the methodology, we kindly request that you adhere to the provided foll
  <img src="Assets/Images/Neo4j Desktop Match Graph.PNG" width="70%">
 </p>
 
-**7.** Under the "_Graph Apps_" section, open "Graph Data Science Playground" aka _NEuler_.  
+**7.** Under the "_Graph Apps_" section, open "Graph Data Science Playground" aka _Neo4j NEuler_.  
    - In case _NEuler_ is absent from the list, you can install it using this url:: [https://neo.jfrog.io/neo/api/npm/npm/neuler](https://neo.jfrog.io/neo/api/npm/npm/neuler)
    - Copy the url and click on "Install".
 <p align="center">
@@ -110,7 +110,7 @@ To apply the methodology, we kindly request that you adhere to the provided foll
  <img src="Assets/Images/NEuler Algorithm Result.PNG" width="70%">
 </p>
 
-**9)** When accessing Neo4j Browser, employ the _Cypher_ match query [[14]](https://neo4j.com/docs/cypher-manual/4.4/clauses/match/) to retrieve the desired results. Following that, you have the option to export the results in a format of your choice, typically CSV.
+**9)** When accessing _Neo4j Browser_, employ the _Cypher_ match query [[14]](https://neo4j.com/docs/cypher-manual/4.4/clauses/match/) to retrieve the desired results. Following that, you have the option to export the results in a format of your choice, typically CSV.
 
 
 <p align="center">
