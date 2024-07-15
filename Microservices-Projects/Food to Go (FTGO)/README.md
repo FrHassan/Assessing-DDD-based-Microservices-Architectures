@@ -48,6 +48,14 @@ The Degree Centrality Afferent Coupling algorithm has identified 3 services (Ord
 
 In this section involves proposing refactoring actions to reduce the degree of Design-Time coupling in the architecture. The proposed architecture is illustrated in the following Figures.
 
+<p align="center">
+ <img src="New proposed architecture graph metrics/FTGO proposed architecture associated graph (PNG).png" width="70%">
+</p>
+
+<p align="center">
+ <img src="New proposed architecture graph metrics/FTGO proposed architecture ordering graph (PNG).png" width="70%">
+</p>
+
 ## References
 
 [1] [https://github.com/microservices-patterns/ftgo-application](https://github.com/microservices-patterns/ftgo-application)  
