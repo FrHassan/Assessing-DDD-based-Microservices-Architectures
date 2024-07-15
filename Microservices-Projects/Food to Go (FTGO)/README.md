@@ -56,6 +56,12 @@ In this section involves proposing refactoring actions to reduce the degree of D
  <img src="New proposed architecture graph metrics/FTGO proposed architecture ordering graph (PNG).png" width="70%">
 </p>
 
+The following step is to execute the graph algorithms on the newly proposed refactored architecture. The following Table presents the metrics of the proposed refactored architecture along with the metrics of the initial architecture. The metrics denoted by a green '1' represent a decrease in comparison to the metrics of the initial architecture. In the following, the proposed refactored architecture's obtained results are analyzed. Then, these results are compared to the findings of the initial architecture to check the variation in the level of Design-Time Coupling.
+
+<p align="center">
+ <img src="New proposed architecture graph metrics/New graph metrics.png" width="70%">
+</p>
+
 ## References
 
 [1] [https://github.com/microservices-patterns/ftgo-application](https://github.com/microservices-patterns/ftgo-application)  
