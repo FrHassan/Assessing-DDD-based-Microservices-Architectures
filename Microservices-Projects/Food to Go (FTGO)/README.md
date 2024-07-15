@@ -31,6 +31,13 @@ During this phase of the methodology, the architecture associated graph for is g
 </p>
 
 ## Graph algorithms execution on FTGO
+
+The second phase of the methodology invovles executing the graph algorithms on the FTGO associated graph. The following table presents the obtained results from this execution. The rows highlighted in red show the services that exceed the threshold of the Degree Centrality Afferent Coupling, while for the other algorithms, the metrics for the services that surpass the thresholds are indicated in red with the tiny character '1'. 
+
+<p align="center">
+ <img src="FTGO graph metrics/Graph metrics.png" width="70%">
+</p>
+
 ## FTGO result analysis
 
 ## References
