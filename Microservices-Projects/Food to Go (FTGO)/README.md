@@ -40,6 +40,8 @@ The second phase of the methodology invovles executing the graph algorithms on t
 
 ## FTGO result analysis
 
+The Degree Centrality Afferent Coupling algorithm has identified 3 services (Order, Kitchen, and Restaurant) with differing levels of incoming dependencies, ranging from 4 to 6. This suggests that modifications to any of these services will require corresponding changes in at least 4 services, which refers to an important level of Design-Time Coupling. Additionally, the other algorithms have confirmed the findings of the Degree Centrality Afferent Coupling algorithm, with the 3 services showing significant values for these algorithms except for the "\textit{Restaurant}" service in regards to the LCC algorithm.
+
 ## References
 
 [1] [https://github.com/microservices-patterns/ftgo-application](https://github.com/microservices-patterns/ftgo-application)  
