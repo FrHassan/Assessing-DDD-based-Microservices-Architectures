@@ -68,18 +68,12 @@ The overall results indicate that the proposed refactored architecture has exper
 
 ## References
 
-[1] [https://github.com/EdwinVW/pitstop/wiki](https://github.com/EdwinVW/pitstop/wiki)  
+[1] Pitstop - Garage Management System. [https://github.com/EdwinVW/pitstop/wiki](https://github.com/EdwinVW/pitstop/wiki)  
 
-[2] Pitstop - Garage Management System [Pattern: Command Query Responsibility Segregation (CQRS). https://microservices.io/patterns/data/cqrs.html.]( https://microservices.io/patterns/data/cqrs.html.)  
+[2] Pattern: Command Query Responsibility Segregation (CQRS). [https://microservices.io/patterns/data/cqrs.html.]( https://microservices.io/patterns/data/cqrs.html.)  
 
-[3] [https://github.com/EdwinVW/pitstop/wiki](https://github.com/EdwinVW/pitstop/wiki)  
+[3] Pattern: Event sourcing. [https://microservices.io/patterns/data/event-sourcing.html](https://microservices.io/patterns/data/event-sourcing.html)  
 
-[4] [https://github.com/EdwinVW/pitstop/wiki](https://github.com/EdwinVW/pitstop/wiki)  
+[4] EVANS, Eric. Domain-driven design: tackling complexity in the heart of software. Addison-Wesley Professional, 2004.  
 
-[5] [https://github.com/EdwinVW/pitstop/wiki](https://github.com/EdwinVW/pitstop/wiki)  
-
-[75]  (Accessed: 11/01/2023).
-[76] Pattern: Event sourcing. https://microservices.io/patterns/data/event-sourcing.html. (Accessed: 11/01/2023).
-
-EVANS, Eric. Domain-driven design: tackling complexity in the heart of software. Addison-Wesley Professional, 2004.
-[77] NEWMAN, Sam. Building microservices. " O’Reilly Media, Inc.", 2021.
+[5] NEWMAN, Sam. Building microservices. " O’Reilly Media, Inc.", 2021.  
