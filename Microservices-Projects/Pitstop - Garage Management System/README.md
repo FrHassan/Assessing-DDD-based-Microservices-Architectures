@@ -44,7 +44,7 @@ The second phase of the methodology invovles executing the graph algorithms on t
 
 ## Pitstop result analysis
 
-cccccccccccccccccccccThe Degree Centrality Afferent Coupling algorithm has identified 3 services (Order, Kitchen, and Restaurant) with differing levels of incoming dependencies, ranging from 4 to 6. This suggests that modifications to any of these services will require corresponding changes in at least 4 services, which refers to an important level of Design-Time Coupling. Additionally, the other algorithms have confirmed the findings of the Degree Centrality Afferent Coupling algorithm, with the 3 services showing significant values for these algorithms except for the "\textit{Restaurant}" service in regards to the LCC algorithm.
+The analysis indicates that the Workshop Management, Notification, and Invoice services exhibit a higher Degree of Centrality Afferent Coupling values, indicating 3 incoming dependencies per service. This  signifies that alterations to these services would necessitate adjustments in three other services, underscoring a significant level of Design-Time Coupling. These same services also demonstrate important values in terms of PageRank, Triangle Count, and Local Clustering Coefficient. Notably, Workshop Management stands out with higher values in Triangle Count and Local Clustering Coefficient compared to the remaining services.
 
 ## Proposed architecture
 
