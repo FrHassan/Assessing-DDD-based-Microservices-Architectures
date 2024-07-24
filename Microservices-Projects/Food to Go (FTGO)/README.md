@@ -18,7 +18,7 @@ This section presents the application of the methodology on the FTGO microservic
 
 ## Overview
 
-Food to Go (FTGO) [[1]](https://github.com/microservices-patterns/ftgo-application) is an enterprise Java-based application designed for managing restaurants and food delivery. The main feature of FTGO lies in the utilization of DDD to identify and decompose its set of services. FTGO implements DDD by following the steps presented in section 2-1. This approach leads to the creation of distinct sub-domains, each having its own defined Bounded Context. Figure 1 presents some of the FTGO’s sub-domains such as Order, Consumer, and Delivery sub-domains. Each of the services in FTGO has a single responsibility and is considered small in terms of granularity, containing only the needed entities to ensure their functioning, allowing to be developed by dedicated small teams.
+Food to Go (FTGO) [[1]](https://github.com/microservices-patterns/ftgo-application) is an enterprise Java-based application designed for managing restaurants and food delivery. The main feature of FTGO lies in the utilization of DDD [[2]](https://github.com/FrHassan/MicroservicesProjects#References) to identify and decompose its set of services. FTGO implements DDD by following the steps presented in section 2-1. This approach leads to the creation of distinct sub-domains, each having its own defined Bounded Context. Figure 1 presents some of the FTGO’s sub-domains such as Order, Consumer, and Delivery sub-domains. Each of the services in FTGO has a single responsibility and is considered small in terms of granularity, containing only the needed entities to ensure their functioning, allowing to be developed by dedicated small teams.
 
 <p align="center">
  <img src="FTGO microservices architecture (PNG).PNG" width="70%">
@@ -67,3 +67,6 @@ The overall results indicate that the proposed refactored architecture has exper
 ## References
 
 [1] [https://github.com/microservices-patterns/ftgo-application](https://github.com/microservices-patterns/ftgo-application)  
+
+[2] EVANS, Eric. Domain-driven design: tackling complexity in the heart of software. Addison-Wesley Professional, 2004.  
+
