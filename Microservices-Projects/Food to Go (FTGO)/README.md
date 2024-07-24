@@ -13,7 +13,7 @@ This section presents the application of the methodology on the FTGO microservic
 
 * [**Proposed architecture**](https://github.com/FrHassan/Assessing-DDD-based-Microservices-Architectures/tree/main/Microservices-Projects/Food%20to%20Go%20(FTGO)#Proposed-architecture)
     
-* [**References**](https://github.com/FrHassan/MicroservicesProjects#References)
+* [**References**](https://github.com/FrHassan/Assessing-DDD-based-Microservices-Architectures/tree/main/Microservices-Projects/Food%20to%20Go%20(FTGO)#References)
 
 
 ## Overview
