@@ -1,13 +1,13 @@
-# Food to Go (FTGO)
+# Pitstop - Garage Management System
 
-This section presents the application of the methodology on the FTGO microservices application. All the necessessary data are provided in the attached folders.
+This section presents the application of the methodology on the Pitstop microservices application. All the necessessary data are provided in the attached folders.
 
 ## Table of Contents
 
 * [**Overview**](https://github.com/FrHassan/Assessing-DDD-based-Microservices-Architectures/tree/main/Microservices-Projects/Food%20to%20Go%20(FTGO)#Overview)  
 * [**FTGO Microservices architecture into a graph**](https://github.com/FrHassan/Assessing-DDD-based-Microservices-Architectures/tree/main/Microservices-Projects/Food%20to%20Go%20(FTGO)#FTGO-Microservices-architecture-into-a-graph)  
 
-* [**Graph algorithms execution on FTGO**](https://github.com/FrHassan/Assessing-DDD-based-Microservices-Architectures/tree/main/Microservices-Projects/Food%20to%20Go%20(FTGO)#Graph-algorithms-execution-on-FTGO)
+* [**Graph algorithms execution on Pitstop**](https://github.com/FrHassan/Assessing-DDD-based-Microservices-Architectures/tree/main/Microservices-Projects/Food%20to%20Go%20(FTGO)#Graph-algorithms-execution-on-Pitstop)
 
 * [**FTGO result analysis**](https://github.com/FrHassan/Assessing-DDD-based-Microservices-Architectures/tree/main/Microservices-Projects/Food%20to%20Go%20(FTGO)#FTGO-result-analysis)
 
@@ -18,10 +18,12 @@ This section presents the application of the methodology on the FTGO microservic
 
 ## Overview
 
-Food to Go (FTGO) [[1]](https://github.com/microservices-patterns/ftgo-application) is an enterprise Java-based application designed for managing restaurants and food delivery. The main feature of FTGO lies in the utilization of DDD to identify and decompose its set of services. FTGO implements DDD by following the steps presented in section 2-1. This approach leads to the creation of distinct sub-domains, each having its own defined Bounded Context. Figure 1 presents some of the FTGO’s sub-domains such as Order, Consumer, and Delivery sub-domains. In the case of FTGO, each Bounded Context corresponds to one microservice. Each of these services has a single responsibility and is considered small in terms of granularity, containing only the needed entities to ensure their functioning, allowing to be developed by dedicated small teams.
+Pitstop [1] is a microservices application devoted to maintaining the business of a car maintenance garage. Its main role is to support the employees’ daily tasks such as managing vehicles by customers, creating maintenance jobs planning, and ensuring continuous monitoring for each vehicle. Pitstop was mainly introduced to demonstrate several software architectural concepts such as CQRS [2], Event Sourcing [3], DDD [4], and Eventual Consistency [5].
+
+The application was completely built using .NET (ASP.NET Core). Moreover, it utilizes Docker, Kubernetes, Istio, RabbitMQ and others. Figure 23 shows the Pitstop main architecture.
 
 <p align="center">
- <img src="FTGO microservices architecture (PNG).PNG" width="70%">
+ <img src="Pitstop microservices architecture (PNG).png" width="70%">
 </p>
 
 ## FTGO Microservices architecture into a graph
@@ -66,4 +68,18 @@ The overall results indicate that the proposed refactored architecture has exper
 
 ## References
 
-[1] [https://github.com/microservices-patterns/ftgo-application](https://github.com/microservices-patterns/ftgo-application)  
+[1] [https://github.com/EdwinVW/pitstop/wiki](https://github.com/EdwinVW/pitstop/wiki)  
+
+[2] [Pattern: Command Query Responsibility Segregation (CQRS). https://microservices.io/patterns/data/cqrs.html.]( https://microservices.io/patterns/data/cqrs.html.)  
+
+[3] [https://github.com/EdwinVW/pitstop/wiki](https://github.com/EdwinVW/pitstop/wiki)  
+
+[4] [https://github.com/EdwinVW/pitstop/wiki](https://github.com/EdwinVW/pitstop/wiki)  
+
+[5] [https://github.com/EdwinVW/pitstop/wiki](https://github.com/EdwinVW/pitstop/wiki)  
+
+[75]  (Accessed: 11/01/2023).
+[76] Pattern: Event sourcing. https://microservices.io/patterns/data/event-sourcing.html. (Accessed: 11/01/2023).
+
+EVANS, Eric. Domain-driven design: tackling complexity in the heart of software. Addison-Wesley Professional, 2004.
+[77] NEWMAN, Sam. Building microservices. " O’Reilly Media, Inc.", 2021.
