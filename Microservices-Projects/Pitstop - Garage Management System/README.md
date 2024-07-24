@@ -70,7 +70,7 @@ The overall results indicate that the proposed refactored architecture has exper
 
 [1] [https://github.com/EdwinVW/pitstop/wiki](https://github.com/EdwinVW/pitstop/wiki)  
 
-[2] [Pattern: Command Query Responsibility Segregation (CQRS). https://microservices.io/patterns/data/cqrs.html.]( https://microservices.io/patterns/data/cqrs.html.)  
+[2] Pitstop - Garage Management System [Pattern: Command Query Responsibility Segregation (CQRS). https://microservices.io/patterns/data/cqrs.html.]( https://microservices.io/patterns/data/cqrs.html.)  
 
 [3] [https://github.com/EdwinVW/pitstop/wiki](https://github.com/EdwinVW/pitstop/wiki)  
 
