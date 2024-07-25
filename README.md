@@ -14,7 +14,7 @@ This repository offers supplementary information to assist in the research prese
 
 ## Methodology
 
-The proposed methodology for evaluating Domain-Driven Design-based microservices architectures against tight Design-Time coupling, as outlined in the paper, is as follows:
+The proposed methodology for evaluating Design-Time coupling in Domain-Driven Design-based microservices architectures as outlined in the paper, is as follows:
 
 <p align="center">
  <img src="Assets/Images/Methodology.png" width="60%">
