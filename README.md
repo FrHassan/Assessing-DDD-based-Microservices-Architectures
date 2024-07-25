@@ -120,13 +120,6 @@ To apply the methodology, we kindly request that you adhere to the provided foll
  <img src="Assets/Images/Neo4j Export CSV.PNG" width="70%">
 </p>
 
-**10)** Using the (.csv) file, you have the option to utilize a suitable tool in order to produce visual representations of your architectural data. 
-   - In our case, we use _Microsoft Power BI Desktop_ [[12]](https://www.microsoft.com/fr-fr/download/details.aspx?id=58494) to generate our charts.
-   - Example of a chart: [Food to Go (FTGO) - Degree analysis](https://github.com/FrHassan/Assessing-DDD-based-Microservices-Architectures/blob/main/Microservices-Projects/Food%20to%20Go%20(FTGO)/Degree/FTGO%20Degree%20and%20Degree_Out%20(PNG).PNG)
-   
-<p align="center">
- <img src="https://github.com/FrHassan/Assessing-DDD-based-Microservices-Architectures/blob/main/Microservices-Projects/Food%20to%20Go%20(FTGO)/Degree/FTGO%20Degree%20and%20Degree_Out%20(PNG).PNG" width="70%">
-</p>
 
 **Note**: _Neo4j Bloom_ will give you the possibility to explore and visualize your graph interactively. You can use it to provide a visual representation of your graph.
 
