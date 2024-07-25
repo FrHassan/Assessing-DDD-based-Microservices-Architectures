@@ -41,13 +41,16 @@ The second phase of the methodology invovles executing the graph algorithms on t
 
 ## Drone Delivery result analysis
 
-The analysis indicates that the Workshop Management, Notification, and Invoice services exhibit a higher Degree of Centrality Afferent Coupling values, indicating 3 incoming dependencies per service. This  signifies that alterations to these services would necessitate adjustments in three other services, underscoring a significant level of Design-Time Coupling.
+According to the Degree Centrality Afferent coupling algorithm, all services in the architecture have a small number of incoming dependencies. This suggests that modifications made to these services will only have a limited effect on other parts of the system. Therefore, there is a low level of Design-Time coupling among the services.
 
-The PageRank algorithm results reveal that the services highlited previously by the Degree Centrality Afferent Coupling algorithm (Workshop Management, Notification, and Invoice) have also the higher PageRank score. This finding aligns with the previous algorithm’s results which also emphasized the significance of these services in terms of incoming dependencies.
+According to the PageRank algorithm, the Scheduler service holds significant importance in the architecture as it has attained the highest Degree Centrality Afferent coupling score among all services. However, as the Degree Centrality Afferent coupling indicates the level of Desing-Time coupling is low regarding this services with the others.
 
-The Triangle Count algorithm results has shown that the Notification, and Invoice services participates only in 1 triangle, while the Workshop Management service participates in 4 triangles, making the Workshop Management the important service in the architecture.
+The Triangle Count algorithm has revealed the absence of any triangles in the architecture. This indicates that the dependencies within the architecture are simple and reflect a low degree of Design-Time coupling. Therefore, the architecture can be considered to be simple in its design and structure.
 
-The results of the Local Clustering Coefficient algorithm show that the Workshop Management has the higher value with a score of 0.4, suggesting that approximately half of the services associated with this service are also connected to each other.
+The results of the Local Clustering Coefficient algorithm has also a 0 value for all services, suggesting that the connectivity between services are simple. This as well refeer to a simple degree of Design-Time coupling.
+
+Note: the Scheduler service is an orchestration service that arranges and organizes complex functionalities that invoke
+multiple services. Consequently, the Scheduler service may receive multiple calls from other services as it orchestrate and provide data easly. As a result, As a result, these type of services are not taken into consideration in the evaluation of \textit{Design-Time Coupling}, as they tend to have multuple incoming dependencies by nature.
 
 ## References
 
