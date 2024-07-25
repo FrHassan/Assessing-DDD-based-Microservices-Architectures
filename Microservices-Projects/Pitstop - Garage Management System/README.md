@@ -1,6 +1,6 @@
 # Pitstop - Garage Management System
 
-This section presents the application of the methodology on the Pitstop microservices application. All the necessessary data are provided in the attached folders.
+This section presents the application of the methodology on the Pitstop microservices application. The results (in csv format) are provided in the
 
 ## Table of Contents
 
