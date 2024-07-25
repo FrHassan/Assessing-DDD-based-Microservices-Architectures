@@ -1,20 +1,19 @@
-# Pitstop - Garage Management System
+# Drone Delivery
 
-This section presents the application of the methodology on the Pitstop microservices application. All the necessessary data are provided in the attached folders.
+This section presents the application of the methodology on the Drone Delivery microservices application. All the necessessary data are provided in the attached folders.
 
 ## Table of Contents
 
-* [**Overview**](https://github.com/FrHassan/Assessing-DDD-based-Microservices-Architectures/tree/main/Microservices-Projects/Pitstop%20-%20Garage%20Management%20System#Overview)  
-* [**FTGO Microservices architecture into a graph**](https://github.com/FrHassan/Assessing-DDD-based-Microservices-Architectures/tree/main/Microservices-Projects/Pitstop%20-%20Garage%20Management%20System#FTGO-Microservices-architecture-into-a-graph)  
+* [**Overview**](#Overview)  
+* [**Drone Delivery Microservices architecture into a graph**](#Drone-Delivery-Microservices-architecture-into-a-graph)  
 
-* [**Graph algorithms execution on Pitstop**](https://github.com/FrHassan/Assessing-DDD-based-Microservices-Architectures/tree/main/Microservices-Projects/Pitstop%20-%20Garage%20Management%20System#Graph-algorithms-execution-on-Pitstop)
+* [**Graph algorithms execution on Drone Delivery**](#Graph-algorithms-execution-on-Drone-Delivery)
 
-* [**Pitstop result analysis**](https://github.com/FrHassan/Assessing-DDD-based-Microservices-Architectures/tree/main/Microservices-Projects/Pitstop%20-%20Garage%20Management%20System#Pitstop-result-analysis)
+* [**Drone Delivery result analysis**](#Drone-Delivery-result-analysis)
 
-* [**Proposed architecture**](https://github.com/FrHassan/Assessing-DDD-based-Microservices-Architectures/tree/main/Microservices-Projects/Pitstop%20-%20Garage%20Management%20System#Proposed-architecture)
+* [**Proposed architecture**](#Proposed-architecture)
     
-* [**References**](https://github.com/FrHassan/Assessing-DDD-based-Microservices-Architectures/tree/main/Microservices-Projects/Pitstop%20-%20Garage%20Management%20System#References)
-
+* [**References**](#References)
 
 ## Overview
 
