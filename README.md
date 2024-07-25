@@ -30,7 +30,7 @@ The table below showcases the four microservices projects to which the methodolo
 | :---             |            :---:            | :---:|   :---:   |     :---:      |        :---:     | :---    |
 | Food to Go (FTGO) | [**Ref:** FTGO](https://github.com/microservices-patterns/ftgo-application) | 14 | Java | <sup>Multiple microservices patterns</sup> | [**FTGO**](https://github.com/FrHassan/Assessing-DDD-based-Microservices-Architectures/tree/main/Microservices-Projects/Food%20to%20Go%20(FTGO)) | <sup>An application for restaurant management</sup> |
 | Pitstop - Garage Management System | [**Ref:** Pitstop](https://github.com/EdwinVW/pitstop) | 8 | .NET and ASP.NET Core | <sup>CQRS, Event Sourcing</sup> | [**Pitstop**](https://github.com/FrHassan/Assessing-DDD-based-Microservices-Architectures/tree/main/Microservices-Projects/Pitstop%20-%20Garage%20Management%20System) | <sup>A sample application based on a Garage Management System</sup> |
-
+| Drone Delivery | [**Ref:** Drone Delivery](https://learn.microsoft.com/thth/azure/architecture/microservices/model/microservice-boundaries) | 8 | .NET and ASP.NET Core | <sup>CQRS, Event Sourcing</sup> | [**Pitstop**](https://github.com/FrHassan/Assessing-DDD-based-Microservices-Architectures/tree/main/Microservices-Projects/Pitstop%20-%20Garage%20Management%20System) | <sup>A sample application based on a Garage Management System</sup> |
 
 ## Project Analysis
 ### Platform and Tools
