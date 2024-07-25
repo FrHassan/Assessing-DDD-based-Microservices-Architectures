@@ -35,9 +35,9 @@ The table below showcases the four microservices projects to which the methodolo
 ## Project Analysis
 ### Platform and Tools
 
-The main utilized tool to apply the methodology is Neo4j [[1]](https://neo4j.com/), which is an open source graph database management system,
+In this work, the main utilized tool to apply the methodology is Neo4j [[1]](https://neo4j.com/), which is an open source graph database management system.
 
-Neo4j offers three main tools to perform graph manipulate graphs: 
+Neo4j offers three main tools to manipulate graphs: 
 
 * **Neo4j Browser [[2]](https://neo4j.com/developer/neo4j-browser/):** A tool to interact and manipulate graphs. 
 * **Neo4j Bloom [[3]](https://neo4j.com/product/bloom/):** A tool to interact visually with the graph.
