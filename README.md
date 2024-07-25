@@ -45,7 +45,7 @@ Neo4j offers three main tools to manipulate graphs:
 
 ### Application of the Methodology
 
-To apply the methodology, we kindly request that you adhere to the provided following instructions:
+To apply the methodology with Neo4j, the following steps are followed:
 
 **1.** Install _Neo4j Desktop_ following the instructions mentioned in [[5]](https://neo4j.com/docs/desktop-manual/current/installation/download-installation/).  
 **2.** Use _Neo4j Desktop_ to create a new graph database.  
@@ -55,7 +55,7 @@ To apply the methodology, we kindly request that you adhere to the provided foll
 </p>
 
 **3.** Under the database "_Plugins_" section, install "_APOC_" and "_Graph Data Science Library_". 
-   - _Awesome Procedures On Cypher (APOC)_ [[6]](https://neo4j.com/labs/apoc/) provide useful_ Cypher_ functionalities that help manipulating the graph. 
+   - _Awesome Procedures On Cypher (APOC)_ [[6]](https://neo4j.com/labs/apoc/) provide useful functionalities that help manipulating graphs. 
    - _Graph Data Science Library_ [[7]](https://neo4j.com/docs/graph-data-science/current/) facilitate the execution of the available Neo4j graph algorithms.
 
 <p align="center">
