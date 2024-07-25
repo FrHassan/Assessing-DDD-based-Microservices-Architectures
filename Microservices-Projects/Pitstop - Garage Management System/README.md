@@ -46,7 +46,7 @@ The second phase of the methodology invovles executing the graph algorithms on t
 
 The analysis indicates that the Workshop Management, Notification, and Invoice services exhibit a Degree of Centrality Afferent Coupling equales to 3, indicating 3 incoming dependencies per service. This  signifies that alterations to these services would necessitate adjustments in three other services, underscoring a significant level of Design-Time Coupling.
 
-The PageRank algorithm results reveal that the services highlited previously by the Degree Centrality Afferent Coupling algorithm (Workshop Management, Notification, and Invoice) have also the higher PageRank score. This finding aligns with the previous algorithm’s results which also emphasized the significance of these services in terms of incoming dependencies.
+The PageRank algorithm results reveal that the services highlited previously by the Degree Centrality Afferent Coupling algorithm (Workshop Management, Notification, and Invoice) have also an important PageRank score. This finding aligns with the previous algorithm’s results which also emphasized the significance of these services in terms of incoming dependencies.
 
 The Triangle Count algorithm results has shown that the Notification, and Invoice services participates only in 1 triangle, while the Workshop Management service participates in 4 triangles, making the Workshop Management the important service in the architecture.
 
