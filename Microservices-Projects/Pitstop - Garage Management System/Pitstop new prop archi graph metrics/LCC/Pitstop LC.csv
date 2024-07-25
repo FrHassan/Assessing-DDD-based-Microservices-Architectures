@@ -1,0 +1,12 @@
+﻿node,coefficient
+"(:FrontEndMicroservice {coefficient: 1.0,name: ""Management UI"",degree: 0.0})",1.0
+"(:Microservice {coefficient: 0.3333333333333333,name: ""Read Model"",degree: 3.0})",0.3333333333333333
+"(:Microservice {degree: 1.0,coefficient: 0.16666666666666666,name: ""Workshop Management""})",0.16666666666666666
+"(:FrontEndMicroservice {degree: 0.0,coefficient: 0.0,name: ""PitStop Web App""})",0.0
+"(:Microservice {degree: 2.0,coefficient: 0.0,name: ""Customer Vehicle Event Listener""})",0.0
+"(:Microservice {degree: 1.0,coefficient: 0.0,name: ""Vehicle Management""})",0.0
+"(:Microservice {degree: 1.0,coefficient: 0.0,name: ""Customer Management""})",0.0
+"(:Microservice {coefficient: 0.0,name: ""Notification"",degree: 3.0})",0.0
+"(:Microservice {coefficient: 0.0,name: ""Invoice"",degree: 3.0})",0.0
+"(:Microservice {coefficient: 0.0,name: ""Time Service"",degree: 0.0})",0.0
+"(:Microservice {degree: 0.0,coefficient: 0.0,name: ""Auditlog Service""})",0.0

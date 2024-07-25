@@ -1,0 +1,31 @@
+////////////////////////////////// Nodes Creation ////////////////////////////////// 
+
+
+
+CREATE
+
+  (nPitStop_Web_App:FrontEndMicroservice {name: 'PitStop Web App'}),
+  
+  (nVehicle_Management:Microservice {name: 'Vehicle Management'}),
+  (nCustomer_Management:Microservice {name: 'Customer Management'}),
+  (nWorkshop_Management:Microservice {name: 'Workshop Management'}),
+  (nNotification:Microservice {name: 'Notification'}),
+  (nInvoice:Microservice {name: 'Invoice'}),
+  (nTime_Service:Microservice {name: 'Time Service'}),
+  (nAuditlog_Service:Microservice {name: 'Auditlog Service'}),
+
+  (nPitStop_Web_App)-[:COMMAND_MESSAGE {weight: 1}]->(nVehicle_Management),
+  (nPitStop_Web_App)-[:COMMAND_MESSAGE {weight: 1}]->(nCustomer_Management),
+  (nPitStop_Web_App)-[:COMMAND_MESSAGE {weight: 1}]->(nWorkshop_Management),
+
+  (nVehicle_Management)-[:DOMAIN_EVENT {weight: 1}]->(nWorkshop_Management),
+
+  (nCustomer_Management)-[:COMMAND_MESSAGE {weight: 1}]->(nInvoice),
+  (nCustomer_Management)-[:COMMAND_MESSAGE {weight: 1}]->(nNotification),
+  (nCustomer_Management)-[:COMMAND_MESSAGE {weight: 1}]->(nWorkshop_Management),
+
+  (nWorkshop_Management)-[:DOMAIN_EVENT {weight: 1}]->(nInvoice),
+  (nWorkshop_Management)-[:DOMAIN_EVENT {weight: 1}]->(nNotification),
+  
+  (nTime_Service)-[:DOMAIN_EVENT {weight: 1}]->(nNotification),
+  (nTime_Service)-[:DOMAIN_EVENT {weight: 1}]->(nInvoice);

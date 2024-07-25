@@ -1,0 +1,24 @@
+﻿node,score
+"(:Microservice {name: ""Delegate Order"",pageranknew: 0.7823556595982143,degree_affrent: 4.0})",0.7823556595982143
+"(:Microservice {name: ""Restaurant"",pageranknew: 0.7056852232142857,degree_affrent: 4.0})",0.7056852232142857
+"(:Microservice {name: ""Account"",pageranknew: 0.5859604464285715,degree_affrent: 3.0})",0.5859604464285715
+"(:Broker {name: ""Commands Handler"",degree_affrent: 2.0,pageranknew: 0.5495000000000001})",0.5495000000000001
+"(:Microservice {name: ""Kitchen"",pageranknew: 0.5012473214285714,degree_affrent: 4.0})",0.5012473214285714
+"(:Microservice {name: ""Notification"",pageranknew: 0.44991621986607144,degree_affrent: 1.0})",0.44991621986607144
+"(:Microservice {name: ""Consumer"",pageranknew: 0.4494125000000001,degree_affrent: 3.0})",0.4494125000000001
+"(:Broker {name: ""Events Publisher"",degree_affrent: 2.0,pageranknew: 0.405})",0.405
+"(:IntegrationAdapter {name: ""Stripe Adapter"",pageranknew: 0.3990331897321429,degree_affrent: 1.0})",0.3990331897321429
+"(:IntegrationAdapter {name: ""Twilio Adapter"",pageranknew: 0.3412143934430804,degree_affrent: 1.0})",0.3412143934430804
+"(:IntegrationAdapter {name: ""Amazon_SES_Adapter"",degree_affrent: 1.0,pageranknew: 0.3412143934430804})",0.3412143934430804
+"(:Microservice {name: ""Create Order"",pageranknew: 0.23500000000000004,degree_affrent: 2.0})",0.23500000000000004
+"(:Microservice {name: ""Update Order"",pageranknew: 0.23500000000000004,degree_affrent: 2.0})",0.23500000000000004
+"(:Microservice {name: ""Cancel Order"",pageranknew: 0.23500000000000004,degree_affrent: 2.0})",0.23500000000000004
+"(:Microservice {name: ""Delivery"",pageranknew: 0.20395982142857147,degree_affrent: 2.0})",0.20395982142857147
+"(:Microservice {name: ""Order History"",pageranknew: 0.16821428571428573,degree_affrent: 1.0})",0.16821428571428573
+"(:Microservice {name: ""Delayed Order Service"",degree_affrent: 1.0,pageranknew: 0.16821428571428573})",0.16821428571428573
+"(:Broker {name: ""Order Events Handler"",degree_affrent: 0.0,pageranknew: 0.15000000000000002})",0.15000000000000002
+"(:Broker {name: ""Delegate Order Event Updater"",degree_affrent: 0.0,pageranknew: 0.15000000000000002})",0.15000000000000002
+"(:FrontEndMicroservice {name: ""Api Gateway"",pageranknew: 0.15000000000000002,degree_affrent: 0.0})",0.15000000000000002
+"(:FrontEndMicroservice {name: ""Restaurant UI"",pageranknew: 0.15000000000000002,degree_affrent: 0.0})",0.15000000000000002
+"(:FrontEndMicroservice {name: ""Order Api"",pageranknew: 0.15000000000000002,degree_affrent: 0.0})",0.15000000000000002
+"(:FrontEndMicroservice {name: ""Order Restaurant UI"",degree_affrent: 0.0,pageranknew: 0.15000000000000002})",0.15000000000000002
