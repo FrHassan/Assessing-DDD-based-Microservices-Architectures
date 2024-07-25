@@ -5,43 +5,41 @@ This section presents the application of the methodology on the Drone Delivery m
 ## Table of Contents
 
 * [**Overview**](#Overview)  
-* [**Drone Delivery Microservices architecture into a graph**](#Drone-Delivery-Microservices-architecture-into-a-graph)  
+* [**Drone Delivery Microservices architecture into a graph**](https://github.com/FrHassan/Assessing-DDD-based-Microservices-Architectures/tree/main/Microservices-Projects/Drone%20Delivery#Drone-Delivery-Microservices-architecture-into-a-graph)  
 
-* [**Graph algorithms execution on Drone Delivery**](#Graph-algorithms-execution-on-Drone-Delivery)
+* [**Graph algorithms execution on Drone Delivery**](https://github.com/FrHassan/Assessing-DDD-based-Microservices-Architectures/tree/main/Microservices-Projects/Drone%20Delivery#Graph-algorithms-execution-on-Drone-Delivery)
 
-* [**Drone Delivery result analysis**](#Drone-Delivery-result-analysis)
+* [**Drone Delivery result analysis**](https://github.com/FrHassan/Assessing-DDD-based-Microservices-Architectures/tree/main/Microservices-Projects/Drone%20Delivery#Drone-Delivery-result-analysis)
 
-* [**Proposed architecture**](#Proposed-architecture)
+* [**Proposed architecture**](https://github.com/FrHassan/Assessing-DDD-based-Microservices-Architectures/tree/main/Microservices-Projects/Drone%20Delivery#Proposed-architecture)
     
-* [**References**](#References)
+* [**References**](https://github.com/FrHassan/Assessing-DDD-based-Microservices-Architectures/tree/main/Microservices-Projects/Drone%20Delivery#References)
 
 ## Overview
 
-Pitstop [1] is a microservices application devoted to maintaining the business of a car maintenance garage. Its main role is to support the employees’ daily tasks such as managing vehicles by customers, creating maintenance jobs planning, and ensuring continuous monitoring for each vehicle. Pitstop was mainly introduced to demonstrate several software architectural concepts such as CQRS [2], Event Sourcing [3], DDD [4], and Eventual Consistency [5].
-
-The application was completely built using .NET (ASP.NET Core). Moreover, it utilizes Docker, Kubernetes, Istio, RabbitMQ and others. Figure 23 shows the Pitstop main architecture.
+The Drone Delivery [1] application is a microservices-based system featured in the official documentation [59] of Microsoft Azure. It demonstrates the identification of microservices boundaries through Domain-Driven Design (DDD) [2]. The application is specifically designed to facilitate drone-based deliveries for businesses. It comprises 10 microservices, each addressing various essential aspects of the delivery process such as scheduling pickups and drones, managing user accounts, tracking packages, and archiving historical data for analytical purposes.
 
 <p align="center">
- <img src="Pitstop microservices architecture (PNG).png" width="70%">
+ <img src="Drone Delivery microservices architecture (PNG).png" width="70%">
 </p>
 
-## Pitstop Microservices architecture into a graph
+## Drone Delivery Microservices architecture into a graph
 
-During this phase of the methodology, the architecture associated graph of the Pitstop architecture is generated and shown in the Figure below.
+During this phase of the methodology, the architecture associated graph of the Drone Delivery architecture is generated and shown in the Figure below.
 
 <p align="center">
- <img src="Pitstop graph metrics/Pitstop associated graph (PNG).png" width="70%">
+ <img src="Drone Delivery graph metrics/Drone Delivery associated graph (PNG).png" width="70%">
 </p>
 
-## Graph algorithms execution on Pitstop
+## Graph algorithms execution on Drone Delivery
 
-The second phase of the methodology invovles executing the graph algorithms on the Pitstop associated graph. The following table presents the obtained results from this execution.
+The second phase of the methodology invovles executing the graph algorithms on the Drone Delivery associated graph. The following table presents the obtained results from this execution.
 
 <p align="center">
- <img src="Pitstop graph metrics/Graph metrics.png" width="70%">
+ <img src="Drone Delivery graph metrics/Graph metrics.png" width="70%">
 </p>
 
-## Pitstop result analysis
+## Drone Delivery result analysis
 
 The analysis indicates that the Workshop Management, Notification, and Invoice services exhibit a higher Degree of Centrality Afferent Coupling values, indicating 3 incoming dependencies per service. This  signifies that alterations to these services would necessitate adjustments in three other services, underscoring a significant level of Design-Time Coupling.
 
@@ -51,30 +49,8 @@ The Triangle Count algorithm results has shown that the Notification, and Invoic
 
 The results of the Local Clustering Coefficient algorithm show that the Workshop Management has the higher value with a score of 0.4, suggesting that approximately half of the services associated with this service are also connected to each other.
 
-## Proposed architecture
-
-In this section involves proposing refactoring actions to reduce the degree of Design-Time coupling in the architecture. The proposed architecture is illustrated in the following Figures.
-
-<p align="center">
- <img src="Pitstop new prop archi graph metrics/Pitstop prop archi associated graph.png" width="70%">
-</p>
-
-The following step is to execute the graph algorithms on the newly proposed refactored architecture. The following Table presents the metrics of the proposed refactored architecture along with the metrics of the initial architecture. The metrics denoted by a green '1' represent a decrease in comparison to the metrics of the initial architecture, while the metrics denoted by a red '2' means an increase regarding the value of the algorithm. In the following, the proposed refactored architecture's obtained results are analyzed. Then, these results are compared to the findings of the initial architecture to check the variation in the level of Design-Time Coupling.
-
-<p align="center">
- <img src="Pitstop new prop archi graph metrics/Pitstop new graph metrics.png" width="70%">
-</p>
-
-The overall results indicate that the proposed refactored architecture has experienced a decrease in the majority of the metrics. The Degree Centrality Afferent Coupling algorithm has only shown a decrease in the number of incoming dependencies for the Workshop management service. However, there have been no increases regarding the metrics of the other services. According to the PageRank algorithm, 3 services have shown lower importance rankings based on the number of incoming dependencies, however, there was a slight increase regarding two services (increase with approximatly 0.02). Regarding the Triangle Count algorithm, significant progress has been made in terms of reducing the number of three-sided dependencies across a total of 6 services. Additionally, there is an important decrease across 6 services in terms of the Local Clustering Coefficient with no increase at any service, which indicates that the level of Design-Time Coupling has been reduced in comparison to the initial architecture. However, this new refactored architecture comes with a cost, which is the increase in the number of microservices within the overall architecture.
-
 ## References
 
-[1] Pitstop - Garage Management System. [https://github.com/EdwinVW/pitstop/wiki](https://github.com/EdwinVW/pitstop/wiki)  
+[1] Example: Defining microservices for the Drone Delivery application. [https://learn.microsoft.com/thth/azure/architecture/microservices/model/microservice-boundaries](https://learn.microsoft.com/thth/azure/architecture/microservices/model/microservice-boundaries)  
 
-[2] Pattern: Command Query Responsibility Segregation (CQRS). [https://microservices.io/patterns/data/cqrs.html.]( https://microservices.io/patterns/data/cqrs.html.)  
-
-[3] Pattern: Event sourcing. [https://microservices.io/patterns/data/event-sourcing.html](https://microservices.io/patterns/data/event-sourcing.html)  
-
-[4] EVANS, Eric. Domain-driven design: tackling complexity in the heart of software. Addison-Wesley Professional, 2004.  
-
-[5] NEWMAN, Sam. Building microservices. " O’Reilly Media, Inc.", 2021.  
+[2] [4] EVANS, Eric. Domain-driven design: tackling complexity in the heart of software. Addison-Wesley Professional, 2004.  
