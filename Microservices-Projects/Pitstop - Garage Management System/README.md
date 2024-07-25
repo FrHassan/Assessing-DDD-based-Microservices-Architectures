@@ -5,7 +5,7 @@ This section presents the application of the methodology on the Pitstop microser
 ## Table of Contents
 
 * [**Overview**](https://github.com/FrHassan/Assessing-DDD-based-Microservices-Architectures/tree/main/Microservices-Projects/Pitstop%20-%20Garage%20Management%20System#Overview)  
-* [**FTGO Microservices architecture into a graph**](https://github.com/FrHassan/Assessing-DDD-based-Microservices-Architectures/tree/main/Microservices-Projects/Pitstop%20-%20Garage%20Management%20System#FTGO-Microservices-architecture-into-a-graph)  
+* [**Pitstop Microservices architecture into a graph**](https://github.com/FrHassan/Assessing-DDD-based-Microservices-Architectures/tree/main/Microservices-Projects/Pitstop%20-%20Garage%20Management%20System#Pitstop-Microservices-architecture-into-a-graph)  
 
 * [**Graph algorithms execution on Pitstop**](https://github.com/FrHassan/Assessing-DDD-based-Microservices-Architectures/tree/main/Microservices-Projects/Pitstop%20-%20Garage%20Management%20System#Graph-algorithms-execution-on-Pitstop)
 
