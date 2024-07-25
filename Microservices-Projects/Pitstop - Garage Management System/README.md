@@ -44,7 +44,7 @@ The second phase of the methodology invovles executing the graph algorithms on t
 
 ## Pitstop result analysis
 
-The analysis indicates that the Workshop Management, Notification, and Invoice services exhibit a higher Degree of Centrality Afferent Coupling values, indicating 3 incoming dependencies per service. This  signifies that alterations to these services would necessitate adjustments in three other services, underscoring a significant level of Design-Time Coupling.
+The analysis indicates that the Workshop Management, Notification, and Invoice services exhibit a Degree of Centrality Afferent Coupling equales to 3, indicating 3 incoming dependencies per service. This  signifies that alterations to these services would necessitate adjustments in three other services, underscoring a significant level of Design-Time Coupling.
 
 The PageRank algorithm results reveal that the services highlited previously by the Degree Centrality Afferent Coupling algorithm (Workshop Management, Notification, and Invoice) have also the higher PageRank score. This finding aligns with the previous algorithm’s results which also emphasized the significance of these services in terms of incoming dependencies.
 
