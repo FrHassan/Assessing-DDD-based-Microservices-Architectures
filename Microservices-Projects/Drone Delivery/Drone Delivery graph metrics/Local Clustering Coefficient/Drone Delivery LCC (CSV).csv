@@ -1,0 +1,11 @@
+﻿node,score
+"(:Microservice {coefficient: 0.0,name: ""User Acount"",degree: 1.0,pagerank: 0.23727375,trianglesCount: 0})",0.0
+"(:Microservice {coefficient: 0.0,degree: 1.0,name: ""3rd party Transportation"",pagerank: 0.23727375,trianglesCount: 0})",0.0
+"(:Microservice {coefficient: 0.0,degree: 1.0,name: ""Drone Scheduling"",pagerank: 0.23727375,trianglesCount: 0})",0.0
+"(:Microservice {coefficient: 0.0,name: ""Package"",degree: 1.0,pagerank: 0.23727375,trianglesCount: 0})",0.0
+"(:Microservice {coefficient: 0.0,name: ""Delivery"",degree: 1.0,pagerank: 0.23727375,trianglesCount: 0})",0.0
+"(:Microservice {coefficient: 0.0,degree: 1.0,name: ""Delivery History "",pagerank: 0.3516826875,trianglesCount: 0})",0.0
+"(:FrontEnd {coefficient: 0.0,name: ""Gateway"",degree: 0.0,pagerank: 0.15000000000000002,trianglesCount: 0})",0.0
+"(:Microservice {coefficient: 0.0,name: ""Ingestion"",degree: 1.0,pagerank: 0.2775,trianglesCount: 0})",0.0
+"(:Microservice {coefficient: 0.0,name: ""Scheduler"",degree: 2.0,pagerank: 0.513375,trianglesCount: 0})",0.0
+"(:Microservice {coefficient: 0.0,name: ""Supervisor"",degree: 0.0,pagerank: 0.15000000000000002,trianglesCount: 0})",0.0
