@@ -26,7 +26,7 @@ Food to Go (FTGO) [[1]](https://github.com/microservices-patterns/ftgo-applicati
 
 ## FTGO Microservices architecture into a graph
 
-During this phase of the methodology, the architecture associated graph of the FTGO architecture is generated and shown in the Figure below.
+During phase 1 of the methodology, the FTGO associated graph is generated and shown in the Figure below.
 
 <p align="center">
  <img src="FTGO graph metrics/FTGO associated graph (PNG).png" width="70%">
