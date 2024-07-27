@@ -54,7 +54,7 @@ The results of the Local Clustering Coefficient algorithm show that the Workshop
 
 ## Proposed architecture
 
-In this section involves proposing refactoring actions to reduce the degree of Design-Time coupling in the architecture. The proposed architecture is illustrated in the following Figures.
+This section involves proposing refactoring actions to reduce the degree of Design-Time coupling in the architecture. The proposed architecture is illustrated in the following Figures.
 
 <p align="center">
  <img src="Pitstop new prop archi graph metrics/Pitstop prop archi associated graph.png" width="70%">
