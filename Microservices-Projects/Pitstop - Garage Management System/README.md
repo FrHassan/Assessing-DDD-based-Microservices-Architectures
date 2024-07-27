@@ -60,6 +60,10 @@ This section involves proposing refactoring actions to reduce the degree of Desi
  <img src="Pitstop new prop archi graph metrics/Pitstop prop archi associated graph.png" width="70%">
 </p>
 
+Based on the results presented in the table above, we opted to conduct a functional decomposition of the Workshop Management service. This particular service holds significance within the overall architecture due to its high scores across all four algorithms. 
+
+As outlined in the official documentation, the functionality of other services in the architecture relies on the Workshop Management service for accessing data. Consequently, we established a distinct service, named "Read Model," devoted to supplying data to these services instead of depending directly on the Workshop Management service. The Workshop Management service keeps the Read Model service up to date via domain events.
+
 The following step is to execute the graph algorithms on the newly proposed refactored architecture. The following Table presents the metrics of the proposed refactored architecture along with the metrics of the initial architecture. The metrics denoted by a green '1' represent a decrease in comparison to the metrics of the initial architecture, while the metrics denoted by a red '2' means an increase regarding the value of the algorithm. In the following, the proposed refactored architecture's obtained results are analyzed. Then, these results are compared to the findings of the initial architecture to check the variation in the level of Design-Time Coupling.
 
 <p align="center">
