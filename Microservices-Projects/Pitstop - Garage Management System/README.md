@@ -54,15 +54,11 @@ According to the Local Clustering Coefficient algorithm, Customer Management exh
 
 ## Proposed architecture
 
-This section involves proposing refactoring actions to reduce the degree of Design-Time coupling in the architecture. The proposed architecture is illustrated in the following Figures.
+This section involves proposing refactoring actions to reduce the degree of Design-Time coupling in the architecture. The proposed architecture is illustrated in the following Figures. Accordifn to the "_Pitstop result analysis_" section, the Customer Management and the Workshop Managementservices are the most important services in the architecture. The primary consideration is the merging of services. Yet, the merging solution is not feasible due to the lack of close interrelation in service functionalities. The second option is to split services through functional decomposition. However, the Customer Management service only caters to a single function, the "RegisterCustomer" command. Hence, there is no scope for further division in this microservice. In contrast, the Workshop Management service encompasses two components: an API for managing workshop schedules and an event handler responsible for processing events and building a read-model used by the API. As a result, a functional decomposition is conducted on the Workshop Management service to extract the Read-model and establish it as an independent service. The following figure displays the proposed architecture after this change has been made.
 
 <p align="center">
  <img src="Pitstop new prop archi graph metrics/Pitstop prop archi associated graph.png" width="70%">
 </p>
-
-Based on the results presented in the table above, we opted to conduct a functional decomposition of the Workshop Management service. This particular service holds significance within the overall architecture due to its high scores across all four algorithms. 
-
-As outlined in the official documentation, the functionality of other services in the architecture relies on the Workshop Management service for accessing data. Consequently, we established a distinct service, named "Read Model," devoted to supplying data to these services instead of depending directly on the Workshop Management service. The Workshop Management service keeps the Read Model service up to date via domain events.
 
 The following step is to execute the graph algorithms on the newly proposed refactored architecture. The following Table presents the metrics of the proposed refactored architecture along with the metrics of the initial architecture. The metrics denoted by a green '1' represent a decrease in comparison to the metrics of the initial architecture, while the metrics denoted by a red '2' means an increase regarding the value of the algorithm. In the following, the proposed refactored architecture's obtained results are analyzed. Then, these results are compared to the findings of the initial architecture to check the variation in the level of Design-Time Coupling.
 
