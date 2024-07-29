@@ -1,9 +1,0 @@
-﻿node,coefficient
-"(:Microservice {coefficient: 1.0,degree: 1.0,name: ""Vehicle Management"",pagerank: 0.19250000000000003,trianglesCount: 1})",1.0
-"(:FrontEndMicroservice {coefficient: 0.6666666666666666,degree: 0.0,name: ""PitStop Web App"",pagerank: 0.15000000000000002,trianglesCount: 2})",0.6666666666666666
-"(:Microservice {coefficient: 0.5,degree: 1.0,name: ""Customer Management"",pagerank: 0.19250000000000003,trianglesCount: 3})",0.5
-"(:Microservice {coefficient: 0.4,degree: 3.0,name: ""Workshop Management"",pagerank: 0.41066666666666674,trianglesCount: 4})",0.4
-"(:Microservice {coefficient: 0.3333333333333333,name: ""Notification"",degree: 3.0,pagerank: 0.4428250000000001,trianglesCount: 1})",0.3333333333333333
-"(:Microservice {coefficient: 0.3333333333333333,name: ""Invoice"",degree: 3.0,pagerank: 0.4428250000000001,trianglesCount: 1})",0.3333333333333333
-"(:Microservice {coefficient: 0.0,name: ""Time Service"",degree: 0.0,pagerank: 0.15000000000000002,trianglesCount: 0})",0.0
-"(:Microservice {coefficient: 0.0,degree: 0.0,name: ""Auditlog Service"",pagerank: 0.15000000000000002,trianglesCount: 0})",0.0
