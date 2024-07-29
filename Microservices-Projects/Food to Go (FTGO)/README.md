@@ -52,7 +52,9 @@ The results of the Local Clustering Coefficient algorithm show that the Order se
 
 ## Proposed architecture
 
-In this section involves proposing refactoring actions to reduce the degree of Design-Time coupling in the architecture. The proposed architecture is illustrated in the following Figures.
+In this section involves proposing refactoring actions to reduce the degree of Design-Time coupling in the architecture. The proposed architecture is illustrated in the following Figures. 
+
+To reduce the level of Design-Time Coupling in the architecture, two potential solutions are considered. The first solution involves the merging of the tightly coupled services, which helps prevent the need for modifications to these services as they are consolidated into a single entity. This option is only feasible for services with closely related functionalities, which is not the case in the example of the detected services. The seconde one involves dividing a service based on its specific business logic. The service or services to be divided are among the services that we have determined to have a significant degree of Design-Time Coupling in the original architecture (Order, Kitchen, and Restaurant).
 
 <p align="center">
  <img src="FTGO new propose archi graph metrics/FTGO proposed architecture associated graph (PNG).png" width="70%">
