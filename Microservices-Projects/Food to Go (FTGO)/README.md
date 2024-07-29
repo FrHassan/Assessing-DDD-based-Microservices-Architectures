@@ -56,6 +56,8 @@ In this section involves proposing refactoring actions to reduce the degree of D
 
 To reduce the level of Design-Time Coupling in the architecture, two potential solutions are considered. The first solution involves the merging of the tightly coupled services, which helps prevent the need for modifications to these services as they are consolidated into a single entity. This option is only feasible for services with closely related functionalities, which is not the case in the example of the detected services. The seconde one involves dividing a service based on its specific business logic. The service or services to be divided are among the services that we have determined to have a significant degree of Design-Time Coupling in the original architecture (Order, Kitchen, and Restaurant).
 
+Based on the results presented previously in the table above, we decided to perform a functional decomposition on the Order service. This service is important within the architecture due to the level of Design-Time Coupling between this service and the other services. The proposed architecture for FTGO incorporates the division of the Order service into smaller entities, which are then connected to the rest of the architecture to ensure the functioning of the application. The proposed refactored architecture’s associated graph is presented in Figure 6, while Figure 7 presents in detail the proposed set of microservices responsible for the ordering functionality.
+
 <p align="center">
  <img src="FTGO new propose archi graph metrics/FTGO proposed architecture associated graph (PNG).png" width="70%">
 </p>
