@@ -46,11 +46,11 @@ The second phase of the methodology invovles executing the graph algorithms on t
 
 The obtained results reveals that the Customer Management service exhibit the most significant level of Centrality Afferent Coupling within the system, with 4 inbound dependencies. This is because the service generates a CustomerRegistered event that is utilized by four other services. This results in a Design-Time Coupling between the Customer services and the other services, as modifying the event might necessitate changes in the linked services. The Workshop management, Invoice, and Time services follow a similar pattern, each having 3, 2, and 2 inbound dependencies correspondingly.
 
-The PageRank algorithm results reveal that the services highlited previously by the Degree Centrality Afferent Coupling algorithm (Workshop Management, Notification, and Invoice) have also an important PageRank score. This finding aligns with the previous algorithm’s results which also emphasized the significance of these services in terms of incoming dependencies.
+The pagerank analysis reveals that Customer management holds a significance of 0.39, while Vehicle services has a score of 0.31. Workshop Management is valued at 0.27, and Invoice at 0.23. These findings highlight the importance of Customer management within the architecture, followed by Vehicle services and Workshop Management. This hierarchy is determined by the extent of dependencies each service has and their criticality to other services in the system.
 
-The Triangle Count algorithm results has shown that the Notification, and Invoice services participates only in 1 triangle, while the Workshop Management service participates in 4 triangles, making the Workshop Management the important service in the architecture.
+The results from the Triangle Count algorithm show that the Workshop management service has involvement in 4 triangular relationships, whereas the Customer management service is linked to 3 triangles. This indicates these services are dependent on other services that are also dependent on one another. As a result modification to these services may result in adjustment s to the other services depending on them.
 
-The results of the Local Clustering Coefficient algorithm show that the Workshop Management has the higher value with a score of 0.4, suggesting that approximately half of the services associated with this service are also connected to each other.
+According to the Local Clustering Coefficient algorithm, Customer Management exhibits a coefficient of 0.5, whereas Workshop Management registers a value of 0.4. This indicates that half of the services linked to these two services are also connected. The vehicle service has a value of 1 since the Front-end service calls upon the workshop management service. 
 
 ## Proposed architecture
 
