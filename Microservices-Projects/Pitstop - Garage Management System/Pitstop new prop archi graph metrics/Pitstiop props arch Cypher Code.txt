@@ -1,0 +1,37 @@
+////////////////////////////////// Nodes Creation ////////////////////////////////// 
+
+CREATE
+
+  (nPitStop_Web_App:FrontEnd {name: 'PitStop Web App'}),
+  
+  (nVehicle_Management:Microservice {name: 'Vehicle Management'}),
+  (nCustomer_Management:Microservice {name: 'Customer Management'}),
+  (nWorkshop_Management:Microservice {name: 'Workshop Management'}),
+  (nNotification:Microservice {name: 'Notification'}),
+  (nInvoice:Microservice {name: 'Invoice'}),
+  (nTime_Service:Microservice {name: 'Time Service'}),
+  (nAuditlog_Service:Microservice {name: 'Auditlog Service'}),
+
+  (nRead_Model:Microservice {name: 'Read Model'}),
+  (nManagement_UI:FrontEnd {name: 'Management UI'}),
+
+  (nPitStop_Web_App)-[:COMMAND {weight: 1}]->(nVehicle_Management),
+  (nPitStop_Web_App)-[:COMMAND {weight: 1}]->(nCustomer_Management),
+
+  (nManagement_UI)-[:COMMAND {weight: 1}]->(nWorkshop_Management),
+  (nManagement_UI)-[:COMMAND {weight: 1}]->(nRead_Model),
+
+  (nRead_Model)-[:DOMAIN_EVENT {weight: 1}]->(nCustomer_Management),
+  (nRead_Model)-[:DOMAIN_EVENT {weight: 1}]->(nWorkshop_Management),
+  (nRead_Model)-[:DOMAIN_EVENT {weight: 1}]->(nVehicle_Management),
+
+  (nNotification)-[:DOMAIN_EVENT {weight: 1}]->(nCustomer_Management),
+  (nNotification)-[:DOMAIN_EVENT {weight: 1}]->(nWorkshop_Management),
+  (nNotification)-[:DOMAIN_EVENT {weight: 1}]->(nTime_Service),
+
+  (nInvoice)-[:DOMAIN_EVENT {weight: 1}]->(nCustomer_Management),
+  (nInvoice)-[:DOMAIN_EVENT {weight: 1}]->(nWorkshop_Management),
+  (nInvoice)-[:DOMAIN_EVENT {weight: 1}]->(nTime_Service);
+
+
+

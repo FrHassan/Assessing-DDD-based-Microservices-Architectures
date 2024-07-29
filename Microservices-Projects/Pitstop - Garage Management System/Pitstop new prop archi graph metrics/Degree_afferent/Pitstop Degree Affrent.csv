@@ -1,0 +1,11 @@
+﻿node,score
+"(:Microservice {degree: 4.0,name: ""Customer Management""})",4.0
+"(:Microservice {degree: 4.0,name: ""Workshop Management""})",4.0
+"(:Microservice {degree: 2.0,name: ""Vehicle Management""})",2.0
+"(:Microservice {name: ""Time Service"",degree: 2.0})",2.0
+"(:Microservice {name: ""Read Model"",degree: 1.0})",1.0
+"(:FrontEnd {degree: 0.0,name: ""PitStop Web App""})",0.0
+"(:Microservice {name: ""Notification"",degree: 0.0})",0.0
+"(:Microservice {name: ""Invoice"",degree: 0.0})",0.0
+"(:Microservice {degree: 0.0,name: ""Auditlog Service""})",0.0
+"(:FrontEnd {name: ""Management UI"",degree: 0.0})",0.0

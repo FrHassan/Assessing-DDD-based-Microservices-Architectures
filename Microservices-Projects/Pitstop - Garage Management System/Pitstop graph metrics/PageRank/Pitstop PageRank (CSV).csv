@@ -1,0 +1,9 @@
+﻿node,score
+"(:Microservice {degree: 4.0,name: ""Customer Management"",pagerank: 0.39543750000000005})",0.39543750000000005
+"(:Microservice {degree: 2.0,name: ""Vehicle Management"",pagerank: 0.31043750000000003})",0.31043750000000003
+"(:Microservice {degree: 3.0,name: ""Workshop Management"",pagerank: 0.2775})",0.2775
+"(:Microservice {name: ""Time Service"",degree: 2.0,pagerank: 0.23500000000000004})",0.23500000000000004
+"(:FrontEndMicroservice {degree: 0.0,name: ""PitStop Web App"",pagerank: 0.15000000000000002})",0.15000000000000002
+"(:Microservice {name: ""Notification"",degree: 0.0,pagerank: 0.15000000000000002})",0.15000000000000002
+"(:Microservice {name: ""Invoice"",degree: 0.0,pagerank: 0.15000000000000002})",0.15000000000000002
+"(:Microservice {degree: 0.0,name: ""Auditlog Service"",pagerank: 0.15000000000000002})",0.15000000000000002
